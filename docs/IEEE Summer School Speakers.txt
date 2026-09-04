@@ -1,0 +1,189 @@
+﻿4. Lectures and Plenary Talks
+Plenary Speakers
+Dr. Debmalya Biswas (UBS, Switzerland)
+About: Dr. Debmalya Biswas is an Executive Director and AI CoE Lead at UBS, Switzerland, with over 20 years of experience in Artificial Intelligence, Machine Learning, Big Data Analytics, and Privacy & Security. He has previously worked with leading global organizations including Nokia Research, SAP Research, Oracle, and Swisscom, and has led advanced technology development at innovative startups such as Iprova and Darwin Digital. He holds more than 50 patents and has authored over 30 scientific publications. He is a frequent speaker at leading international AI/ML conferences and actively contributes to policy and research as a member of EU AI & XR evaluation committees and the drafting committee for the EU AI Code of Practice.
+Topic: AI/ML, Big Data Analytics, Privacy & Security in LLM Systems
+Dr. Aniruddha Joshi (IIT Bombay / Atreya Innovations)
+About: Dr. Aniruddha Joshi is the Founder & CEO of Atreya Innovations Pvt. Ltd. and a PhD graduate from IIT Bombay. His work focuses on developing AI-driven healthcare solutions that integrate traditional diagnostic knowledge with modern machine learning techniques. He is best known for pioneering the Nadi Tarangini device, an AI-enabled system for pulse-based diagnosis. His research spans medical AI, signal processing, and interpretable healthcare systems, with a strong emphasis on real-world deployment and impact.
+Topic: AI in Healthcare: Integrating LLMs with Interpretable Diagnostic Systems
+Dr. Pratap Sanap (Neilsoft / Microsoft Research India – Collaborations)
+About: Dr. Pratap Sanap is the Head of Research & Innovation at Neilsoft, Pune, with over 23 years of experience in Artificial Intelligence, computer vision, speech processing, and video analytics. He has led multiple large-scale industrial AI projects and played a key role in deploying intelligent systems across diverse domains. His expertise lies in translating cutting-edge research into scalable, real-world applications, particularly in enterprise and industrial environments.
+Topic: Deploying LLMs at Scale: Serving Frameworks, Batching & Cost Optimization
+Dr. Sachin Pawar (TCS Research)
+About: Dr. Sachin Pawar is a researcher at TCS Research specializing in Natural Language Processing and Artificial Intelligence. His work focuses on developing scalable NLP systems, language understanding models, and enterprise-grade AI applications. He has contributed to multiple research publications and industry deployments, with a strong emphasis on building efficient and robust language models for real-world use cases.
+Topic: Foundation Models & LLM Landscape: Architecture, Pretraining & Fine-Tuning
+Prof. Dr. Surya Durbha (IIT Bombay)
+About: Prof. Dr. Surya Durbha is a Professor and Head of the Centre for Studies in Resources Engineering (CSRE) at IIT Bombay. His research spans geospatial analytics, remote sensing, and AI-driven earth observation systems. He has led several national and international projects focusing on environmental monitoring, climate analysis, and sustainable resource management. His expertise in large-scale data systems and AI modeling aligns strongly with optimizing inference and efficiency in modern AI systems.
+Topic: Efficient LLM Inference: Quantization, Pruning & Knowledge Distillation
+Rakshit Jain (PTC)
+About: Rakshit Jain is an AI Systems Engineer at PTC, where he develops production-grade AI solutions for industrial automation, focusing on Graph Neural Networks (GCNs), GraphRAG architectures, and scalable machine learning systems. His work involves fine-tuning large language models, integrating retrieval-augmented generation (RAG), and optimizing inference pipelines for real-world performance and latency constraints. With a strong foundation in Python, distributed systems, and ML infrastructure, he specializes in bridging research and deployment. Beyond industry, he serves as Chair of IEEE Young Professionals Pune Section, has led global initiatives impacting several individuals, and has contributed to funded AI-for-social-good projects, particularly in healthcare and intelligent systems.
+Topic: From Fine-Tuning to Inference: Designing Scalable LLM Systems with RAG and Graph-Based Retrieval
+Lecture Instructors
+Dr. Kishor Burchundi (VNIT Nagpur)
+About: Dr. Kishor Burchundi is a Professor at VNIT Nagpur with over 25 years of experience in applied artificial intelligence, pattern recognition, and computer vision. His work spans real-time image analysis systems, machine learning applications, and intelligent vision-based solutions. He has guided numerous PhD and postgraduate students and has contributed extensively to both academic research and industry-oriented AI systems. His expertise in foundational AI techniques and applied modeling makes him well-suited for explaining core LLM architectures and their evolution.
+Topic: Introduction to LLM Architectures: Transformers, Pretraining & Tokenization
+Prof. Nikhil R. Pal (Indian Statistical Institute, Kolkata)
+About: Prof. Nikhil R. Pal is a globally recognized AI researcher, Fellow of IEEE and INAE, and former Editor-in-Chief of IEEE Transactions on Fuzzy Systems. With over 250 research publications, his contributions span fuzzy systems, neural networks, and computational intelligence. He has played a key role in advancing interpretable and efficient AI models and has deep expertise in optimization techniques. His work aligns strongly with modern parameter-efficient fine-tuning approaches for large language models.
+Topic: LoRA and Parameter-Efficient Fine-Tuning: Theory & Implementation
+Dr. Leelavati Narlikar (IISER Pune)
+About: Dr. Leelavati Narlikar is an Associate Professor and Deputy Chair of the Data Science Department at IISER Pune, with over 17 years of experience in machine learning, computational biology, and interdisciplinary AI research. Her work focuses on building interpretable and efficient deep learning models across domains such as healthcare, genomics, and speech systems. She brings strong expertise in training strategies, optimization, and human-in-the-loop learning approaches relevant to modern LLM alignment techniques.
+Topic: Instruction Tuning, RLHF & Direct Preference Optimization (DPO)
+Ms. Mita Gaware (Dassault Systèmes / IIT Kanpur / MSU)
+About: Ms. Mita Gaware is an R&D Software Development Manager at Dassault Systèmes with strong expertise in natural language processing, enterprise AI systems, and scalable software development. She has led multiple large-scale AI deployments and focuses on optimizing model performance in production environments. Her work involves building efficient inference pipelines and integrating AI into enterprise-grade applications, making her expertise highly relevant to LLM optimization techniques.
+Topic: Quantization Techniques: INT8, INT4, GPTQ & AWQ for Efficient LLM Inference
+Dr. Uday Khedkar (IIT Bombay)
+About: Dr. Uday Khedkar is a Professor in the Department of Computer Science & Engineering at IIT Bombay, with extensive experience in programming languages, compilers, and machine learning. His work focuses on structured prediction, efficient computation, and system-level optimizations. He has supervised numerous graduate students and contributed significantly to research and curriculum development. His expertise bridges low-level system design and high-level AI models, particularly relevant for optimizing LLM training and execution.
+Topic: Efficient Training Pipelines & Compiler-Level Optimizations for LLMs
+Atul Kamble (AI/ML Industry Expert)
+About: Atul Kamble brings over a decade of experience in Artificial Intelligence and Machine Learning, building a strong and versatile foundation across multiple perspectives—ML Engineer, Data Scientist, Manager, and Storyteller. His journey reflects a deep ability to not just solve problems, but to visualize them through different lenses, enabling more holistic and impactful solutions. He specializes in aligning AI systems with business needs, designing scalable solutions, and translating complex models into real-world impact.
+Topic: Bridging Business & AI: Applying Fine-Tuned LLMs to Real-World Systems
+Dr. Bhushan Borotikar (Symbiosis Centre for Medical Image Analysis)
+About: Dr. Bhushan Borotikar is an Associate Professor and Research Head with over 20 years of experience in medical imaging, biomechanics, and AI-driven healthcare analytics. His work focuses on interdisciplinary research combining engineering, data science, and medical sciences to build intelligent diagnostic systems. He has contributed to multiple healthcare innovations and brings expertise in applying AI models to critical real-world medical problems.
+Topic: AI in Healthcare: Applying Fine-Tuned LLMs for Clinical Decision Support
+Dr. Dipesh Walte (Brainchain MPI People Pvt. Ltd.)
+About: Dr. Dipesh Walte is the Managing Director of Brainchain MPI People Pvt. Ltd. and an experienced AI practitioner specializing in deploying scalable AI systems in industry. His work focuses on workforce analytics, enterprise AI solutions, and real-world system integration. He has led multiple projects translating AI research into impactful business applications, with a strong emphasis on scalability and deployment efficiency.
+Topic: Deploying Scalable LLM Systems in Enterprise Environments
+Tejas Gajare (Hewlett Packard Enterprise)
+About: Tejas Gajare is a technology professional at Hewlett Packard Enterprise with expertise in backend systems, computer vision, and enterprise software development. His work involves designing and building scalable applications, integrating AI models into production systems, and optimizing performance for enterprise environments. He brings strong experience in system design and real-world AI deployment pipelines.
+Topic: Backend Infrastructure for LLM Deployment & Inference Optimization
+Abhishek Gaikwad (NVIDIA, California)
+About: Abhishek Gaikwad is a Data Engineer at NVIDIA, California, specializing in large-scale data processing and AI infrastructure. His work focuses on designing efficient data pipelines, supporting high-performance computing systems, and enabling large-scale model training and inference. He has hands-on experience with distributed systems and optimizing data workflows for modern AI applications.
+Topic: Data Pipelines & Infrastructure for Large-Scale LLM Training and Inference
+Dr. Yogesh Kulkarni (Pune AI Community)
+About: Dr. Yogesh Kulkarni is an AI Advisor and Founder of the Pune AI Community with over 20 years of experience in AI, CAD systems, and generative AI. He actively mentors startups, leads AI initiatives, and contributes to building a strong AI ecosystem. His work focuses on bridging innovation, entrepreneurship, and technology adoption in real-world applications.
+Topic: Building AI Ecosystems: From Research to LLM Productization
+Dr. Jayashree Prasad (IBM / IEEE CIS Pune)
+About: Dr. Jayashree Prasad is the Chair of the IEEE Computational Intelligence Society (CIS), Pune Chapter, and a data analytics professional at IBM. She has extensive experience in data science, AI, and analytics, and actively contributes to IEEE initiatives, conferences, and community development. Her work emphasizes responsible AI practices and ethical deployment of intelligent systems.
+Topic: Responsible AI & Ethics in LLM Fine-Tuning and Deployment
+Dr. Anuraddha Thakre (PCCoE)
+About: Dr. Anuraddha Thakre is the Head of the Department of CSE (AI & ML) at PCCoE with extensive experience in data science, intelligent systems, and machine learning. She has played a key role in developing AI-focused academic programs and mentoring students in emerging technologies. Her work focuses on building strong foundational understanding and practical skills in AI and ML.
+Topic: Foundations of Machine Learning for LLM Fine-Tuning
+Dr. Sonal Gore (PCCoE)
+About: Dr. Sonal Gore is an Associate Professor in the Department of CSE (AI & ML) at PCCoE, specializing in medical image analysis and artificial intelligence. She has contributed to research in healthcare AI and is actively involved in teaching, mentoring, and guiding students in applied AI domains. Her expertise connects domain-specific applications with modern AI techniques.
+Topic: Applications of LLMs in Healthcare & Medical Data Systems
+
+
+4.3 Additional Resource Persons
+Name
+	Affiliation
+	Area
+	Links
+	Dr. Aniruddha Joshi
+	Atreya Innovations Pvt. Ltd. (IIT Bombay PhD)
+	Medical AI, Nadi Tarangini device
+	Google Scholar:
+https://scholar.google.com/citations?user=bS9qm5UAAAAJ&hl=en&oi=ao
+	Dr. Pratap Sanap
+	Head R&I, Neilsoft, Pune
+	Image, speech, video analytics (23+ yrs)
+	Linkedin:
+https://www.linkedin.com/in/pratap-sanap/
+	Dr. Uday Khedkar
+	IIT Bombay
+	Computer Science & Engineering
+	Google Scholar:
+https://scholar.google.com/citations?user=mMX9vxkAAAAJ&hl=en&oi=ao
+	Dr. Surya Durbha
+	IIT Bombay (CSRE)
+	Remote sensing, geospatial AI
+	Google Scholar:
+https://scholar.google.com/citations?hl=en&user=_9b5RVUAAAAJ
+	Dr. Kishor Burchundi
+	VNIT, Nagpur
+	Applied AI for Image Processing (25+ yrs)
+	Google Scholar:
+https://scholar.google.com/citations?hl=en&user=RfarD8wAAAAJ
+	Dr. Bhushan Borotikar
+	Symbiosis Centre for Medical Image Analysis
+	Medical imaging AI (20+ yrs)
+	Linkedin: https://www.linkedin.com/in/bhushan-borotikar-0773514/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=u4wHEJoAAAAJ
+	Dr. Sachin Pawar
+	TCS Research
+	NLP and AI research
+	Linkedin: https://www.linkedin.com/in/pawarsachin/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=D6Tl2tkAAAAJ
+	Dr. Debmalya Biswas
+	UBS, Switzerland
+	AI/ML, Big Data Analytics, Privacy and Security
+	Linkedin: https://www.linkedin.com/in/debmalya-biswas-3975261/
+
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=IoAMRcEAAAAJ
+	Atul Mohan Kamble 
+	Cariad, Volkswagen Group
+	ML Engineer, Data Scientist 
+	Linkedin: https://www.linkedin.com/in/atulmkamble/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=wAVfb48AAAAJ
+	Tejas Gajare 
+	Hewlett Packard Enterprise
+	Computer Vision, Microsoft SQL Server, Angular, Spring Boot
+	Linkedin: https://www.linkedin.com/in/tejasgajare/
+	Abhishek Gaikwad
+	NVIDIA, California 
+	Data Engineer
+	Linkedin: https://www.linkedin.com/in/gaikwadabhishek/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=ZnO3YQYAAAAJ
+	Dr. Dipesh Walte
+	MD, Brainchain MPI, Pune (PCCoE Alumni 2014)
+	Industry AI deployment
+	Linkedin:
+https://www.linkedin.com/in/dipesh-walte-45917157/?skipRedirect=true
+	Ms. Mita Gaware
+	R&D Manager, Dassault Systemes, Pune
+	NLP, ML projects (8+ yrs)
+	Linkedin:
+https://www.linkedin.com/in/mita-gaware-21b43a65/
+	Dr. Leelavati Narlikar
+	IISER Pune
+	Computational Biology and ML (17+ yrs)
+	Linkedin:
+https://www.linkedin.com/in/leelavati-narlikar-47a72213/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=6AhiMp0AAAAJ
+	Dr. Yogesh Kulkarni
+	AI Advisor, Pune AI Community (Founder)
+	CAD AI, GenAI, NLP (20+ yrs)
+	Linkedin:
+https://www.linkedin.com/in/yogeshkulkarni/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=RuELzwYAAAAJ
+	Dr. Jayashree Prasad
+	Chair IEEE CIS, Pune Chapter
+	IBM Data Analyst
+	Linkedin:https://www.linkedin.com/in/dr-jayashree-rajesh-prasad-3256621b/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=i8aabkkAAAAJ
+	Rakshit Jain
+	Chair IEEE, Young Professionals, Pune
+AI Engineer, PTC
+	Industrial Automation, GCNs, GraphRAG, Machine Learning, Model Tuning
+	LinkedIn: https://www.linkedin.com/in/rakshit-a-n-jain/
+	Dr. Anuradha Thakre
+	Head CSE (AI & ML), PCCOE
+	Data Science,Intelligent Systems, Machine Learning, Artificial Intelligence and Evolutionary Computing
+	Linkedin:
+https://www.linkedin.com/in/dr-anuradha-thakare-41541abb/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=sjE0ZZAAAAAJ
+	Dr. Sonal Gore
+	Associate Professor, CSE (AI & ML), PCCOE
+	Medical Image Analysis, Artificial Intelligence
+	Linkedin:
+https://www.linkedin.com/in/dr-sonal-gore-66a47822/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=xAin70UAAAAJ

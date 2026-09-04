@@ -1,0 +1,393 @@
+﻿Proposal for the 2026 IEEE CIS Summer School on
+Fine-Tuning Large Language Models and Inference Optimization (FTIO)
+for Scalable and Efficient AI Deployment
+Pimpri Chinchwad College of Engineering (PCCoE), Pune, India
+Duration: 6 Weeks  |  Dates: June 22 - June 27, 2026ˀ  |  Host: CSE (AI & ML) Department
+FieldDetailsLead OrganizerProf. Pallavi Nikumbh,
+Assistant Professor, CSE (AI & ML), PCCoE
+Chapter Advisor, IEEE CIS PCCOE SBCCo-OrganizersDr. Anuradha Thakre, Prof. Shailaja Pede, Prof. Santwana GudadheCollaborator Mr. Rakshit Jain, Chair, Young Professionals Affinity Group, IEEE Pune SectionStudent CoordinatorsMr. Kshitij Jadhav, Ruturaj Pandharkar, Piyush Daspute, Trupti SukaleIEEE MembershipAll organizers are active IEEE / IEEE CIS membersFunding RequestedUS$ 7,400 from IEEE CISContributions from Host Institution (In Kind)US$ 2,000 from PCCOEVenuePCCoE Campus, Sector 26, Pradhikaran, Nigdi, Pune - 411044ModeIn-person (with hybrid streaming for plenary talks)
+1. Aims
+1.1 Primary Ai
+The primary aim of this six-day summer school is to equip the next generation of researchers and practitioners with both the theoretical foundations and practical tools required to build Fine-Tuning Large Language Models and Inference Optimization (FTIO) systems for deployment in critical real-world applications. As AI models become increasingly embedded in healthcare, autonomous systems, finance, law, and public infrastructure, the urgent need for transparency, fairness, robustness, and interpretability has emerged as a global priority  reinforced by regulatory frameworks such as the EU AI Act (2024) and India's National AI Strategy.
+
+This program is structured as a six-day residential and hybrid learning experience. It differs from standard short-duration summer schools by providing deep, sustained engagement with each topic area allowing participants to move from foundational understanding through practical implementation to independent capstone project work over a meaningful period of time.
+
+1.2 Why This Topic Matters Now
+Traditional black-box deep learning models, while powerful, face severe adoption barriers in high-stakes domains due to their lack of interpretability and trustworthiness. Regulators, institutions, and end-users are increasingly demanding that AI systems be able to explain their decisions in human-understandable terms. In India specifically, the deployment of AI in public services  healthcare diagnostics, judicial risk assessment, agricultural advisory, and credit scoring  makes the need for explainability not merely academic but a matter of public interest.
+
+This summer school bridges the gap by teaching participants how to design Computational Intelligence (CI) systems that are inherently interpretable using fuzzy logic, rule-based systems, and transparent neural architectures and how to apply post-hoc explainability techniques to complex models that are already deployed. By combining classical CI strengths with modern deep learning, participants will learn to build systems that are both high-performing and accountable.
+
+1.3 Problem Statement
+Despite rapid advancements in AI research and deployment across India, there is a significant gap in structured, hands-on training for building fine-tuned and inference-optimized LLM systems particularly in emerging economies. Most academic programs continue to focus heavily on model accuracy and performance metrics, with limited emphasis on interpretability, fairness, adversarial robustness, and real-world accountability. This gap is further compounded by a shortage of experienced instructors in XAI and a lack of freely accessible, high-quality educational resources in regional languages or locally relevant application domains.
+
+A six-day program, rather than a typical three-to-five day sprint, directly addresses this problem. It allows participants to engage deeply with each conceptual area, complete meaningful lab exercises, receive peer and mentor feedback, and produce portfolio-quality capstone work that demonstrates real competence to future employers and collaborators.
+
+1.4 Topics Covered
+Foundations of LLM Fine-Tuning
+• Transformer architecture review and pretraining objectives
+• Supervised fine-tuning (SFT) on domain-specific datasets
+• LoRA, QLoRA, adapters, prefix tuning, and prompt tuning
+• Instruction tuning and chat-style fine-tuning with FLAN and Alpaca
+Alignment and Safety Fine-Tuning
+• RLHF: reward modelling, PPO, and preference datasets
+• Direct Preference Optimization (DPO) and ORPO
+• Constitutional AI and red-teaming for safe deployment
+• Evaluation: BLEU, ROUGE, perplexity, and human preference benchmarks
+Inference Optimization
+• Quantization: post-training quantization (PTQ), GPTQ, AWQ, and GGUF
+• Pruning: structured and unstructured pruning for LLMs
+• Knowledge distillation: training smaller student models from large teachers
+• Speculative decoding, continuous batching, and PagedAttention
+Production Serving and Deployment
+• vLLM, TGI, and TensorRT-LLM: high-throughput serving frameworks
+• Cloud deployment: AWS SageMaker, GCP Vertex AI, and Azure ML for LLMs
+• RAG (Retrieval-Augmented Generation) integration with fine-tuned models
+• From Fine-Tuning to Inference: Designing Scalable LLM Systems with RAG and Graph-Based Retrieval
+• Cost and latency optimization: token budgets, caching, and batching strategies
+
+1.5 Expected Outcomes
+By the end of the six-day program, participants will be able to:
+• Fine-tune open-source LLMs (LLaMA, Mistral, Phi) using LoRA/QLoRA on domain-specific datasets
+• Apply quantization (GPTQ, AWQ) and pruning to reduce model size and inference latency
+• Set up and benchmark LLM serving with vLLM and TGI for production workloads
+• Build an end-to-end fine-tuning and deployment pipeline from data preparation to serving
+• Produce a documented capstone project: a fine-tuned LLM with optimized inference for a real application
+• Engage critically with the engineering trade-offs and costs of LLM fine-tuning and deployment
+
+2. Venue and Dates
+2.1 Venue
+Pimpri Chinchwad College of Engineering (PCCoE), Sector No. 26, Pradhikaran, Nigdi, Pune - 411044, Maharashtra, India. PCCoE is one of the premier engineering institutions in Pune affiliated with Savitribai Phule Pune University. The campus provides state-of-the-art computing laboratories with GPU-enabled workstations, seminar halls, a fully equipped auditorium, and reliable high-speed internet, making it well-suited to host an intensive six-day residential program of this nature.
+
+PCCoE will provide all infrastructure including classroom spaces, computer laboratories, and AV equipment as an in-kind contribution, ensuring that the full IEEE CIS grant allocation is directed toward student support, speaker logistics, and educational material production.
+
+2.2 Dates and Duration (Tentative, Subject to fund dispersion) 
+WeekDatesThemeDay 1June 22, 2026Foundations of LLM Fine-TuningDay 2June 23, 2026Parameter-Efficient Fine-Tuning MethodsDay 3June 24, 2026Advanced Fine-Tuning and AlignmentDay 4June 25, 2026Inference Optimization and QuantizationDay 5June 26, 2026Serving, Deployment, and Production SystemsDay 6June 27, 2026Capstone Projects and Final Presentations
+2.3 Host Department
+Department of Computer Science and Engineering (AI & ML), PCCoE. The department has active research programmes in machine learning, computer vision, and NLP, and maintains academic collaborations with IIT Bombay, IISER Pune, and several industry partners including TCS, Persistent Systems, and Dassault Systemes.
+
+3. Delivery Modes and Material Collection Plan
+3.1 Overall Approach
+The six-day format allows for a genuinely multi-modal blended learning experience that short programs cannot offer. Rather than compressing everything into lectures, the structure deliberately alternates between foundational instruction, applied lab work, peer review, and independent project time, a rhythm that reflects how practitioners actually develop expertise.
+
+3.2 Pre-Program Online Preparation (Two Weeks Before June 22)
+• Foundational video modules (15-20 minutes each) on prerequisites: transformer architectures, Python programming, PyTorch basics, and linear algebra
+• Interactive quizzes embedded in the Learning Management System (LMS) to assess baseline knowledge and identify gaps before arrival
+• Curated reading list of five to seven key papers per topic area distributed two weeks in advance
+• Optional orientation session via video call for participants travelling from outside Pune
+3.3 In-Person Daily Structure (Days 1-5)
+Each of the first five days follows a consistent daily rhythm to help participants build routine and manage cognitive load across a sustained program.
+
+TimeMonday/WednesdayTuesday/ThursdayFriday8:30-10:30Plenary or Guest LectureLecture (Theory)Lab Review / Q&A10:30-11:00BreakBreakBreak11:00-13:00Lecture (Theory & Methods)Fine-Tuning Clinic (small groups)Guest Industry Talk13:00-14:00LunchLunchLunch14:00-16:00Hands-on Lab SessionLab Continued / Pair WorkPoster Session / Peer Review16:00-16:30BreakBreakBreak16:30-18:00Discussion / Case StudyTeam Project WorkDay Reflection & Planning
+3.4 Day 6: Capstone and Presentations
+The final week is reserved entirely for capstone project completion, peer review, and formal presentations. No new instructional content is introduced. Each team of three to four participants presents a 20-minute talk followed by a 10-minute Q&A. External evaluators from industry and academia will assess projects against published rubrics covering technical quality, clarity of explanation, and practical applicability.
+
+3.5 Fine-Tuning Clinics
+A distinctive feature of this program is the daily Fine-Tuning Clinic  a two-hour small-group workshop (four to five participants per group) where teams debug and explain real black-box models using Python libraries including HuggingFace PEFT, TRL, bitsandbytes, and vLLM. Each clinic is facilitated by a lab instructor and targets a different model type or application domain each day. This format builds problem-solving competence in a way that traditional lectures cannot.
+
+3.6 Hybrid Participation
+All plenary talks will be live-streamed with real-time Q&A via chat for participants unable to attend in person. Recordings will be made available to registered participants within 48 hours. Lab sessions are in-person only to preserve the quality of hands-on learning, but online participants may follow asynchronous lab tracks with instructor support via the discussion forum.
+
+3.7 Post-Program Continuous Learning (Six Months After June 28)
+• A dedicated Slack and Discord channel will remain active for six months post-program
+• Volunteer lecturers will provide written feedback on capstone projects submitted within three months
+• Monthly virtual seminars on emerging LLM and inference optimization topics will be organized for alumni
+• Participants will be encouraged to submit their capstone work to IEEE CIS student competitions or LLM workshop tracks
+
+3.8 Material Collection and Dissemination
+Video Recordings
+• All plenary talks, lectures, and panel discussions will be recorded in HD (1080p) with high-quality audio
+• Recordings will be edited to include synchronized slides, speaker video, and closed captions for accessibility
+• Final edited recordings will be uploaded to the IEEE CIS Resource Center within three months of the program
+Comprehensive Course Materials
+• Lecture slides in PDF format with full speaker notes for all thirty-plus sessions
+• Jupyter notebooks fully documented for all hands-on lab sessions (minimum 24 notebooks across six days)
+• Curated bibliography of key papers and tutorials for each topic area
+• Weekly problem sets with model solutions for self-assessment
+Digital Handbook of LLM Fine-Tuning and Inference Optimization
+• A 150-200 page compiled handbook integrating lecture notes, annotated code examples, and domain case studies
+• Published as an open-access resource under a Creative Commons CC-BY 4.0 license
+• Distributed in print form to all in-person participants and in digital form globally via the IEEE CIS Resource Center
+
+4. Lectures and Plenary Talks
+Plenary Speakers
+Dr. Debmalya Biswas (UBS, Switzerland)
+About: Dr. Debmalya Biswas is an Executive Director and AI CoE Lead at UBS, Switzerland, with over 20 years of experience in Artificial Intelligence, Machine Learning, Big Data Analytics, and Privacy & Security. He has previously worked with leading global organizations including Nokia Research, SAP Research, Oracle, and Swisscom, and has led advanced technology development at innovative startups such as Iprova and Darwin Digital. He holds more than 50 patents and has authored over 30 scientific publications. He is a frequent speaker at leading international AI/ML conferences and actively contributes to policy and research as a member of EU AI & XR evaluation committees and the drafting committee for the EU AI Code of Practice.
+Topic: AI/ML, Big Data Analytics, Privacy & Security in LLM Systems
+Dr. Aniruddha Joshi (IIT Bombay / Atreya Innovations)
+About: Dr. Aniruddha Joshi is the Founder & CEO of Atreya Innovations Pvt. Ltd. and a PhD graduate from IIT Bombay. His work focuses on developing AI-driven healthcare solutions that integrate traditional diagnostic knowledge with modern machine learning techniques. He is best known for pioneering the Nadi Tarangini device, an AI-enabled system for pulse-based diagnosis. His research spans medical AI, signal processing, and interpretable healthcare systems, with a strong emphasis on real-world deployment and impact.
+Topic: AI in Healthcare: Integrating LLMs with Interpretable Diagnostic Systems
+Dr. Pratap Sanap (Neilsoft / Microsoft Research India - Collaborations)
+About: Dr. Pratap Sanap is the Head of Research & Innovation at Neilsoft, Pune, with over 23 years of experience in Artificial Intelligence, computer vision, speech processing, and video analytics. He has led multiple large-scale industrial AI projects and played a key role in deploying intelligent systems across diverse domains. His expertise lies in translating cutting-edge research into scalable, real-world applications, particularly in enterprise and industrial environments.
+Topic: Deploying LLMs at Scale: Serving Frameworks, Batching & Cost Optimization
+Dr. Sachin Pawar (TCS Research)
+About: Dr. Sachin Pawar is a researcher at TCS Research specializing in Natural Language Processing and Artificial Intelligence. His work focuses on developing scalable NLP systems, language understanding models, and enterprise-grade AI applications. He has contributed to multiple research publications and industry deployments, with a strong emphasis on building efficient and robust language models for real-world use cases.
+Topic: Foundation Models & LLM Landscape: Architecture, Pretraining & Fine-Tuning
+Prof. Dr. Surya Durbha (IIT Bombay)
+About: Prof. Dr. Surya Durbha is a Professor and Head of the Centre for Studies in Resources Engineering (CSRE) at IIT Bombay. His research spans geospatial analytics, remote sensing, and AI-driven earth observation systems. He has led several national and international projects focusing on environmental monitoring, climate analysis, and sustainable resource management. His expertise in large-scale data systems and AI modeling aligns strongly with optimizing inference and efficiency in modern AI systems.
+Topic: Efficient LLM Inference: Quantization, Pruning & Knowledge Distillation
+Rakshit Jain (PTC)
+About: Rakshit Jain is an AI Systems Engineer at PTC, where he develops production-grade AI solutions for industrial automation, focusing on Graph Neural Networks (GCNs), GraphRAG architectures, and scalable machine learning systems. His work involves fine-tuning large language models, integrating retrieval-augmented generation (RAG), and optimizing inference pipelines for real-world performance and latency constraints. With a strong foundation in Python, distributed systems, and ML infrastructure, he specializes in bridging research and deployment. Beyond industry, he serves as Chair of IEEE Young Professionals Pune Section, has led global initiatives impacting several individuals, and has contributed to funded AI-for-social-good projects, particularly in healthcare and intelligent systems.
+Topic: From Fine-Tuning to Inference: Designing Scalable LLM Systems with RAG and Graph-Based Retrieval
+Lecture Instructors
+Dr. Kishor Burchundi (VNIT Nagpur)
+About: Dr. Kishor Burchundi is a Professor at VNIT Nagpur with over 25 years of experience in applied artificial intelligence, pattern recognition, and computer vision. His work spans real-time image analysis systems, machine learning applications, and intelligent vision-based solutions. He has guided numerous PhD and postgraduate students and has contributed extensively to both academic research and industry-oriented AI systems. His expertise in foundational AI techniques and applied modeling makes him well-suited for explaining core LLM architectures and their evolution.
+Topic: Introduction to LLM Architectures: Transformers, Pretraining & Tokenization
+Prof. Nikhil R. Pal (Indian Statistical Institute, Kolkata)
+About: Prof. Nikhil R. Pal is a globally recognized AI researcher, Fellow of IEEE and INAE, and former Editor-in-Chief of IEEE Transactions on Fuzzy Systems. With over 250 research publications, his contributions span fuzzy systems, neural networks, and computational intelligence. He has played a key role in advancing interpretable and efficient AI models and has deep expertise in optimization techniques. His work aligns strongly with modern parameter-efficient fine-tuning approaches for large language models.
+Topic: LoRA and Parameter-Efficient Fine-Tuning: Theory & Implementation
+Dr. Leelavati Narlikar (IISER Pune)
+About: Dr. Leelavati Narlikar is an Associate Professor and Deputy Chair of the Data Science Department at IISER Pune, with over 17 years of experience in machine learning, computational biology, and interdisciplinary AI research. Her work focuses on building interpretable and efficient deep learning models across domains such as healthcare, genomics, and speech systems. She brings strong expertise in training strategies, optimization, and human-in-the-loop learning approaches relevant to modern LLM alignment techniques.
+Topic: Instruction Tuning, RLHF & Direct Preference Optimization (DPO)
+Ms. Mita Gaware (Dassault Systèmes / IIT Kanpur / MSU)
+About: Ms. Mita Gaware is an R&D Software Development Manager at Dassault Systèmes with strong expertise in natural language processing, enterprise AI systems, and scalable software development. She has led multiple large-scale AI deployments and focuses on optimizing model performance in production environments. Her work involves building efficient inference pipelines and integrating AI into enterprise-grade applications, making her expertise highly relevant to LLM optimization techniques.
+Topic: Quantization Techniques: INT8, INT4, GPTQ & AWQ for Efficient LLM Inference
+Dr. Uday Khedkar (IIT Bombay)
+About: Dr. Uday Khedkar is a Professor in the Department of Computer Science & Engineering at IIT Bombay, with extensive experience in programming languages, compilers, and machine learning. His work focuses on structured prediction, efficient computation, and system-level optimizations. He has supervised numerous graduate students and contributed significantly to research and curriculum development. His expertise bridges low-level system design and high-level AI models, particularly relevant for optimizing LLM training and execution.
+Topic: Efficient Training Pipelines & Compiler-Level Optimizations for LLMs
+Atul Kamble (AI/ML Industry Expert)
+About: Atul Kamble brings over a decade of experience in Artificial Intelligence and Machine Learning, building a strong and versatile foundation across multiple perspectives-ML Engineer, Data Scientist, Manager, and Storyteller. His journey reflects a deep ability to not just solve problems, but to visualize them through different lenses, enabling more holistic and impactful solutions. He specializes in aligning AI systems with business needs, designing scalable solutions, and translating complex models into real-world impact.
+Topic: Bridging Business & AI: Applying Fine-Tuned LLMs to Real-World Systems
+Dr. Bhushan Borotikar (Symbiosis Centre for Medical Image Analysis)
+About: Dr. Bhushan Borotikar is an Associate Professor and Research Head with over 20 years of experience in medical imaging, biomechanics, and AI-driven healthcare analytics. His work focuses on interdisciplinary research combining engineering, data science, and medical sciences to build intelligent diagnostic systems. He has contributed to multiple healthcare innovations and brings expertise in applying AI models to critical real-world medical problems.
+Topic: AI in Healthcare: Applying Fine-Tuned LLMs for Clinical Decision Support
+Dr. Dipesh Walte (Brainchain MPI People Pvt. Ltd.)
+About: Dr. Dipesh Walte is the Managing Director of Brainchain MPI People Pvt. Ltd. and an experienced AI practitioner specializing in deploying scalable AI systems in industry. His work focuses on workforce analytics, enterprise AI solutions, and real-world system integration. He has led multiple projects translating AI research into impactful business applications, with a strong emphasis on scalability and deployment efficiency.
+Topic: Deploying Scalable LLM Systems in Enterprise Environments
+Tejas Gajare (Hewlett Packard Enterprise)
+About: Tejas Gajare is a technology professional at Hewlett Packard Enterprise with expertise in backend systems, computer vision, and enterprise software development. His work involves designing and building scalable applications, integrating AI models into production systems, and optimizing performance for enterprise environments. He brings strong experience in system design and real-world AI deployment pipelines.
+Topic: Backend Infrastructure for LLM Deployment & Inference Optimization
+Abhishek Gaikwad (NVIDIA, California)
+About: Abhishek Gaikwad is a Data Engineer at NVIDIA, California, specializing in large-scale data processing and AI infrastructure. His work focuses on designing efficient data pipelines, supporting high-performance computing systems, and enabling large-scale model training and inference. He has hands-on experience with distributed systems and optimizing data workflows for modern AI applications.
+Topic: Data Pipelines & Infrastructure for Large-Scale LLM Training and Inference
+Dr. Yogesh Kulkarni (Pune AI Community)
+About: Dr. Yogesh Kulkarni is an AI Advisor and Founder of the Pune AI Community with over 20 years of experience in AI, CAD systems, and generative AI. He actively mentors startups, leads AI initiatives, and contributes to building a strong AI ecosystem. His work focuses on bridging innovation, entrepreneurship, and technology adoption in real-world applications.
+Topic: Building AI Ecosystems: From Research to LLM Productization
+Dr. Jayashree Prasad (IBM / IEEE CIS Pune)
+About: Dr. Jayashree Prasad is the Chair of the IEEE Computational Intelligence Society (CIS), Pune Chapter, and a data analytics professional at IBM. She has extensive experience in data science, AI, and analytics, and actively contributes to IEEE initiatives, conferences, and community development. Her work emphasizes responsible AI practices and ethical deployment of intelligent systems.
+Topic: Responsible AI & Ethics in LLM Fine-Tuning and Deployment
+Dr. Anuraddha Thakre (PCCoE)
+About: Dr. Anuraddha Thakre is the Head of the Department of CSE (AI & ML) at PCCoE with extensive experience in data science, intelligent systems, and machine learning. She has played a key role in developing AI-focused academic programs and mentoring students in emerging technologies. Her work focuses on building strong foundational understanding and practical skills in AI and ML.
+Topic: Foundations of Machine Learning for LLM Fine-Tuning
+Dr. Sonal Gore (PCCoE)
+About: Dr. Sonal Gore is an Associate Professor in the Department of CSE (AI & ML) at PCCoE, specializing in medical image analysis and artificial intelligence. She has contributed to research in healthcare AI and is actively involved in teaching, mentoring, and guiding students in applied AI domains. Her expertise connects domain-specific applications with modern AI techniques.
+Topic: Applications of LLMs in Healthcare & Medical Data Systems
+
+4.3 Additional Resource Persons
+NameAffiliationAreaLinksDr. Aniruddha JoshiAtreya Innovations Pvt. Ltd. (IIT Bombay PhD)Medical AI, Nadi Tarangini deviceGoogle Scholar:
+https://scholar.google.com/citations?user=bS9qm5UAAAAJ&hl=en&oi=aoDr. Pratap SanapHead R&I, Neilsoft, PuneImage, speech, video analytics (23+ yrs)Linkedin:
+https://www.linkedin.com/in/pratap-sanap/Dr. Uday KhedkarIIT BombayComputer Science & EngineeringGoogle Scholar:
+https://scholar.google.com/citations?user=mMX9vxkAAAAJ&hl=en&oi=aoDr. Surya DurbhaIIT Bombay (CSRE)Remote sensing, geospatial AIGoogle Scholar:
+https://scholar.google.com/citations?hl=en&user=_9b5RVUAAAAJDr. Kishor BurchundiVNIT, NagpurApplied AI for Image Processing (25+ yrs)Google Scholar:
+https://scholar.google.com/citations?hl=en&user=RfarD8wAAAAJDr. Bhushan BorotikarSymbiosis Centre for Medical Image AnalysisMedical imaging AI (20+ yrs)Linkedin: https://www.linkedin.com/in/bhushan-borotikar-0773514/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=u4wHEJoAAAAJDr. Sachin PawarTCS ResearchNLP and AI researchLinkedin: https://www.linkedin.com/in/pawarsachin/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=D6Tl2tkAAAAJDr. Debmalya BiswasUBS, SwitzerlandAI/ML, Big Data Analytics, Privacy and SecurityLinkedin: https://www.linkedin.com/in/debmalya-biswas-3975261/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=IoAMRcEAAAAJAtul Mohan Kamble Cariad, Volkswagen GroupML Engineer, Data Scientist Linkedin: https://www.linkedin.com/in/atulmkamble/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=wAVfb48AAAAJTejas Gajare Hewlett Packard EnterpriseComputer Vision, Microsoft SQL Server, Angular, Spring BootLinkedin: https://www.linkedin.com/in/tejasgajare/Abhishek GaikwadNVIDIA, California Data EngineerLinkedin: https://www.linkedin.com/in/gaikwadabhishek/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=ZnO3YQYAAAAJDr. Dipesh WalteMD, Brainchain MPI, Pune (PCCoE Alumni 2014)Industry AI deploymentLinkedin:
+https://www.linkedin.com/in/dipesh-walte-45917157/?skipRedirect=trueMs. Mita GawareR&D Manager, Dassault Systemes, PuneNLP, ML projects (8+ yrs)Linkedin:
+https://www.linkedin.com/in/mita-gaware-21b43a65/Dr. Leelavati NarlikarIISER PuneComputational Biology and ML (17+ yrs)Linkedin:
+https://www.linkedin.com/in/leelavati-narlikar-47a72213/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=6AhiMp0AAAAJDr. Yogesh KulkarniAI Advisor, Pune AI Community (Founder)CAD AI, GenAI, NLP (20+ yrs)Linkedin:
+https://www.linkedin.com/in/yogeshkulkarni/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=RuELzwYAAAAJDr. Jayashree PrasadChair IEEE CIS, Pune ChapterIBM Data AnalystLinkedin:https://www.linkedin.com/in/dr-jayashree-rajesh-prasad-3256621b/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=i8aabkkAAAAJRakshit JainChair IEEE, Young Professionals, Pune
+AI Engineer, PTCIndustrial Automation, GCNs, GraphRAG, Machine Learning, Model TuningLinkedIn: https://www.linkedin.com/in/rakshit-a-n-jain/Dr. Anuradha ThakreHead CSE (AI & ML), PCCOEData Science,Intelligent Systems, Machine Learning, Artificial Intelligence and Evolutionary ComputingLinkedin:
+https://www.linkedin.com/in/dr-anuradha-thakare-41541abb/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=sjE0ZZAAAAAJDr. Sonal GoreAssociate Professor, CSE (AI & ML), PCCOEMedical Image Analysis, Artificial IntelligenceLinkedin:
+https://www.linkedin.com/in/dr-sonal-gore-66a47822/
+
+Google Scholar:
+https://scholar.google.com/citations?hl=en&user=xAin70UAAAAJ
+4.4 Diversity Summary
+• Gender: 33% female speakers (Prof. Sunita Sarawagi, Prof. Preethi Jyothi, Ms. Mita Gaware)
+• Institutional diversity: IIT Bombay, IIT Hyderabad, IIT Madras, IIT Kanpur, ISI Kolkata, Microsoft Research India, IISER Pune
+• Industrial Involvement : NVDIA, Dassault Systems, UBS, Brainchain MPI, Pune AI Community, TCS, Atreya Innovations, Neilsoft, Hewlett Packards
+• Career stages: established Fellows, mid-career researchers, industry leads, and alumni practitioners
+• Expertise: balanced coverage across fuzzy systems, neural networks, evolutionary computation, NLP, and medical AI
+
+5. Six-Day Program Schedule
+Day 1: Foundations of LLM Fine-Tuning (June 22)
+Morning SessionAfternoon LabOpening Ceremony + Plenary: LLM Landscape and Fine-Tuning Overview (Prof. Balasubramanian)Lab 1: Setting up HuggingFace environment and loading pretrained LLMsLecture 1: Transformer Architecture Deep Dive: Attention, Embeddings, and TokenizationFine-Tuning Clinic 1: Debugging a base LLM on domain-specific promptsLecture 2: Supervised Fine-Tuning (SFT): Data Preparation and Training LoopsLab 2: Supervised fine-tuning a small LLM on an instruction datasetCase Study: Comparing Base vs. Fine-Tuned LLM PerformanceTeam formation and capstone topic selectionGuest Talk: Dr. Yogesh Kulkarni  LLMs in Indian Industry: Practical JourneysPoster Session 1: Participant introductions and prior work
+Day 2: Parameter-Efficient Fine-Tuning Methods (June 23)
+Morning SessionAfternoon LabLecture 3: LoRA and QLoRA: Low-Rank Adaptation for Efficient Fine-Tuning (Prof. Pal)Lab 3: Implementing LoRA fine-tuning with HuggingFace PEFTLecture 4: Adapters, Prefix Tuning, and Prompt TuningFine-Tuning Clinic 2: Diagnosing overfitting in LoRA fine-tuningLecture 5: Dataset Curation and Quality for Instruction Fine-TuningLab 4: Preparing and formatting instruction datasets with Alpaca and FLANGuest Talk: Dr. Kishor Burchundi  Fine-Tuning LLMs for Vision and Multimodal TasksTeam project work  Day 2 milestone checkQ&A Panel: Choosing the right PEFT method for your use casePeer code review and PEFT implementation feedback
+Day 3: Advanced Fine-Tuning and Alignment (June 24)
+Morning SessionAfternoon LabPlenary: Instruction Tuning and Alignment (Prof. Jyothi)Lab 5: Instruction tuning with TRL and the SFTTrainerLecture 6: RLHF: Reward Modelling, PPO, and Human Preference DataFine-Tuning Clinic 3: Debugging reward model training for RLHFLecture 7: Direct Preference Optimization (DPO) and ORPOLab 6: Training a DPO model with TRL on a preference datasetGuest Talk: Dr. Bhushan Borotikar  Fine-Tuning LLMs for Clinical NLPLab 7: Building a medical QA assistant with RLHF fine-tuningCase Study Challenge: Comparing DPO vs RLHF on alignment benchmarksTeam project work  Day 3 milestone check
+Day 4: Inference Optimization and Quantization (June 25)
+Morning SessionAfternoon LabPlenary: Quantization and Pruning for Efficient LLM Inference (Prof. Ravindran)Lab 8: Post-training quantization with bitsandbytes and GPTQLecture 8: Knowledge Distillation and Structured Pruning for LLMs (Prof. Deb)Fine-Tuning Clinic 4: Benchmarking quantized model accuracy vs. latencyLecture 9: Speculative Decoding, Continuous Batching, and PagedAttentionLab 9: Setting up vLLM for high-throughput inference benchmarkingLecture 10: AWQ and GGUF: On-Device and Edge LLM InferenceLab 10: Running AWQ-quantized LLM inference on CPU/edge hardwareGuest Talk: Dr. Pratap Sanap  Optimizing LLM Inference for Real-Time Industry ApplicationsPoster Session 2: Capstone project progress
+Day 5: Serving, Deployment, and Production Systems (June 26)
+Morning SessionAfternoon LabPlenary: LLM Serving at Scale: vLLM, TGI, and TensorRT-LLM (Prof. Bhattacharyya)Lab 11: Deploying a fine-tuned LLM with vLLM and benchmarking throughputPlenary: Deploying LLMs in Production at Microsoft (Dr. Gupta, Microsoft Research)Fine-Tuning Clinic 5: Production readiness checklist for fine-tuned LLMsLecture 11: RAG Integration with Fine-Tuned LLMs for Domain ApplicationsLab 12: Building an end-to-end RAG pipeline with a fine-tuned LLMPanel Discussion: The Future of Open-Source LLMs and Inference Optimization in IndiaHands-on Workshop: Cost and Latency Profiling for LLM DeploymentGuest Talks: Dr. Aniruddha Joshi, Dr. Sachin Pawar, Ms. Mita Gaware  Industry LLM Deployment StoriesTeam project work  Final milestone review
+Day 6: Capstone Projects and Final Presentations (June 27)
+ActivityCapstone project finalization  teams work independently with mentor check-insInternal dry-run presentations with peer feedbackFinal project presentations  20 minutes per team + 10-minute Q&A with external evaluatorsClosing ceremony, certificate distribution, networking lunch, and group photographGala Dinner
+Program Highlights Across Six Days
+• 5 plenary talks from leading national researchers and industry practitioners
+• 12+ in-depth lectures covering theory, methods, and real-world applications
+• 12 structured hands-on labs using Python, HuggingFace Transformers, PEFT, TRL, bitsandbytes, vLLM, and TGI
+• 5 daily Fine-Tuning Clinics in small-group format
+• 2 poster sessions for student engagement and peer learning
+• 1 panel discussion on ethics and policy in AI
+• Multiple guest industry talks from Pune and national practitioners
+• 1 team capstone project per group of three to four participants, culminating in a public presentation
+
+6. Target Audience
+This summer school is designed to serve participants across four groups. The six-day format is particularly well-suited to students who can commit a full portion of their summer to intensive learning, and to early-career researchers who want structured, mentored project experience.
+
+• Senior undergraduate students (final year) in Computer Science, Electronics, and Data Science seeking practical AI skills before entering the workforce or graduate programs
+• Graduate students (Masters and PhD) working on AI/ML research who need structured exposure to interpretability and fairness methods
+• Early-career researchers and postdoctoral fellows who want to add efficient and deployable AI techniques to their existing skills and develop a portfolio project
+• Industry practitioners from companies deploying AI in regulated or high-stakes domains  healthcare, finance, legal, and infrastructure  who need to understand and implement XAI requirements
+
+Prerequisites: Basic Python programming, familiarity with either PyTorch or TensorFlow, and a working understanding of neural networks. No prior experience on fine tuning of llms is required.
+
+Expected cohort size: 60 in-person participants, with an additional 100+ online participants following the live-streamed plenary sessions.
+
+7. Relevance to IEEE CIS
+This summer school is centered on the rapidly evolving domain of fine-tuning Large Language Models (LLMs) and optimizing their inference for real-world applications.
+• Advanced Fine-Tuning Techniques: The program covers state-of-the-art approaches for adapting pre-trained LLMs to specific tasks, including LoRA (Low-Rank Adaptation), instruction tuning, Reinforcement Learning from Human Feedback (RLHF), and alignment methods. Participants will gain hands-on experience in improving model performance while minimizing computational cost.
+• Efficient Inference Optimization: A strong emphasis is placed on deploying LLMs efficiently, covering techniques such as quantization, pruning, knowledge distillation, and batching strategies. These methods ensure faster inference, reduced latency, and scalability across edge and cloud environments.
+• Robust Evaluation and Reliability: The school introduces frameworks for evaluating LLM outputs, including confidence estimation, uncertainty handling, and robustness testing. Participants will explore how to ensure consistent and reliable performance in production systems.
+
+The program aligns with the broader goal of advancing cutting-edge computational intelligence by focusing on LLM fine-tuning and inference optimization, two of the most critical and high-impact areas in modern AI. It provides participants with both theoretical foundations and practical skills required to build scalable and efficient AI systems.
+Participants will be encouraged to contribute to leading research venues and apply their learning to real-world challenges, fostering innovation and strengthening the research ecosystem.
+All materials will be submitted to the IEEE CIS Resource Center, and all activities will be registered through IEEE vTools. A dedicated IEEE Collabratec workspace will be established for participant collaboration. Pre-event learning modules will be uploaded to the IEEE Learning Network (ILN). IEEE CIS branding will appear on all certificates, banners, and digital content produced during and after the program.
+8. Registration Details
+8.1 Registration Fees
+
+Participant TypeOnline (Early Bird)Online (Standard)Offline (Early Bird)Offline (Standard)IEEE CIS Student MemberFreeFreeFreeFreeIEEE Student MemberINR 500INR 600INR 700INR 800Non-IEEE Student MembersINR 700INR 800INR 900INR 1,000IEEE CIS Professional MemberINR 500INR 600INR 700INR 800IEEE Professional MemberINR 550INR 650INR 750INR 850Non-IEEE Professional MembersINR 900INR 1,200INR 1,500INR 2,000From Abroad (All categories)US$15US$ 20US$ 50US$ 55
+Registration deadline: June 10, 2026, or until the capacity of 60 in-person participants is reached. Early bird deadline: June 5, 2026.
+
+We will make sure at least 60% of the total attendees attend in offline mode.
+8.2 Registration Benefits
+All registered in-person participants receive:
+• Full access to all six days of plenary talks, lectures, hands-on labs, poster sessions, Fine-Tuning Clinics, and panel discussions
+• Daily tea/coffee breaks and lunch for the full six-week duration (provided by PCCoE as in-kind contribution)
+• Digital access to all lecture slides, Jupyter notebooks, and the Digital Handbook of LLM Fine-Tuning and Inference Optimization
+• Print copy of the Digital Handbook
+• Official IEEE CIS Summer School Certificate of Participation
+• Access to welcome reception, networking events, and closing ceremony
+• Free accommodation on campus on a first-come, first-served basis (subject to availability)
+• Free shuttle service between select accommodation zones and PCCoE campus
+
+9. Transportation and Accommodation
+9.1 Venue Address
+Pimpri Chinchwad College of Engineering (PCCoE), Sector No. 26, Pradhikaran, Nigdi, Pune - 411044, Maharashtra, India.
+9.2 Access from Major Hubs
+HubDistanceTravel TimeOptionsPune International Airport (PNQ)~25 km30-45 minOla/Uber: INR 400-600; Pre-paid taxi at terminalPune Junction Railway Station~20 km30-40 minOla/Uber: INR 250-400; PMPML bus to NigdiChinchwad Railway Station (Nearest)~4 km10-15 minAuto-rickshaw: INR 80-120
+9.3 Accommodation
+Free accommodation will be provided on or adjacent to the PCCoE campus for registered participants on a first-come, first-served basis. The campus guest house provides basic accommodation with meals, Wi-Fi, and campus access. Participants are encouraged to register early to secure this facility. Additional budget hotels near PCCoE are available at INR 5,000-7,000 per night for those who prefer independent accommodation.
+
+10. Budget Estimation
+10.1 IEEE CIS Grant Request: US$ 6,500
+Expenditure ItemSourceAmount (USD)Student Travel and Accommodation Grants (7 grants x US$150 for students who are travelling out of town)IEEE CIS Grant$1,050Educational Materials Production (Video recording, Digital Handbook, Photography, Banners etc)IEEE CIS Grant$250Printing and Stationery (Certificates, Notebooks, Handouts, ID Cards, Registration Kit etc)IEEE CIS Grant$250Contingency and Miscellaneous (To be allocated in case additional budget allocation required)IEEE CIS Grant$500Venue and Infrastructure (6 days This includes access to 5 Advance AI Labs with high performance computing facilities, 3 Classrooms, Auditorium, Centre of Excellence, Reliable Internet Connectivity, Lawn for dinner/lunch )PCCoE In-Kind$1500Speaker Travel and Accommodation and Mementoes (Domestic, covered by institutions) - nearly 7-8 speakersIEEE CIS Grant$2,300Catering (Tea/Coffee Breaks and Lunch, 6 days)IEEE CIS Grant$500Gala Dinner (Last Day of Summer School)IEEE CIS Grant$300Audio-Visual and Lab EquipmentPCCoE In-Kind$300Volunteer Student Support (T-shirts, ID Cards, Goodies for nearly 20 volunteers)PCCoE In-Kind$200TOTAL IEEE CIS BUDGETIEEE CIS Grant$ 5,150TOTAL IN-KIND CONTRIBUTIONSPCCoE + Institutions$ 2,000GRAND TOTALCombined$ 7,150
+We are requesting a total of USD$7400 from IEEE Computational Intelligence Society
+10.2 Budget Notes
+• PCCoE will supply venue, infrastructure, laboratory equipment, and administrative support entirely as in-kind contribution, with no charge to the grant
+• All speakers from IITs, ISI Kolkata, and industry will participate voluntarily, with travel and accommodation covered under IEEE CIS Grant
+• This zero-overhead model means 100% of IEEE CIS cash funding is directed toward student benefit, material production, and contingency
+• No IEEE CIS funds will be used for speaker honorariums, speaker fees, or IEEE membership dues, in full compliance with IEEE CIS Funding Guidelines
+• A final accounting of all CIS funds will be submitted to the IEEE CIS within 60 days of the program closing
+
+11. Key Organizers
+RoleNameDepartment / NotesLead OrganizerProf. Pallavi NikumbhAI/ML Faculty, PCCoE. IEEE CIS Member. Designs academic programs and liaises with speakers.Co-Organizer (Program Chair)Dr. Anuradha ThakareHead, CSE (AI & ML), PCCoE. Oversees all logistical, academic, and financial aspects. Primary contact with IEEE CIS.Co-Organizer (Program Chair)Prof. Shailaja PedeAI/ML Faculty, PCCoE. IEEE CIS Member. Designs academic programs and liaises with speakers.Co-Organizer (Program Chair)Prof. Santwana GudadheAI/ML Faculty, PCCoE. IEEE CIS Member. Supports academic coordination.Collaborator UnitMr. Rakshit Jain Chair , Young Professionals Affinity Group, IEEE Pune Section
+Collaborator UnitDr. Amar BuchadeChair, IEEE Pune SectionStudent CoordinatorMr. Kshitij Jadhav, Ruturaj Pandharkar, Piyush Daspute, Trupti SukaleResponsible for participant registration, travel grant processing, and student engagement activities.
+All organizers are or will be active IEEE members and meet the eligibility requirements for IEEE CIS funding. Full CVs will be provided upon request.
+
+
+
+12. Risk Management and Mitigation
+RiskLikelihoodMitigation PlanSpeaker unavailability or cancellationMediumMaintain a list of two backup speakers per topic; build flexibility into the weekly schedule to allow re-orderingLow participant turnoutLowHybrid participation option increases accessibility; outreach through IEEE Student Branches across MaharashtraTechnical issues in labs or streamingMediumDedicated IT support on site; full pre-testing of all lab environments and streaming infrastructure one week before startBudget overrunsLowUS$1,000 contingency reserve; all major in-kind contributions confirmed in writing from PCCoE before submissionExtended duration attrition (dropout over 6 days)MediumWeekly milestone check-ins and team accountability structure; social events and networking activities to maintain engagement
+13. Impact and Benefits
+13.1 Educational Impact
+This six-day program fills a critical gap in India's AI education landscape by providing an intensive, practical, and sustained learning experience in Fine-Tuning Large Language Models and Inference Optimization. With the rapid growth of AI deployment in Indian healthcare, banking, agriculture, and public administration, there is an increasing and urgent demand for researchers and practitioners who know how to build CI systems that are not merely accurate, but also transparent, fair, and accountable. No comparable structured program currently exists in India at this depth or duration.
+
+13.2 Specific Educational Outcomes
+Skill Development
+• Participants will be able to implement fine-tuned LLMs using LoRA/QLoRA, quantized models, and optimized serving pipelines from scratch
+• Hands-on lab sessions will produce working code that participants can directly apply or adapt in their own research and industry projects
+• The capstone project provides a portfolio-quality demonstration of FTIO expertise, usable in job applications, graduate program applications, and conference submissions
+Knowledge Dissemination
+• The Digital Handbook of LLM Fine-Tuning and Inference Optimization will serve as a comprehensive reference for the Indian and global CI community, freely available under Creative Commons license
+• All video recordings and Jupyter notebooks will enable self-paced learning by thousands of students globally after the program ends
+• Materials submitted to the IEEE CIS Resource Center will remain available indefinitely
+Community Building
+• The six-day cohort model builds a tight-knit group of 60 early-career researchers committed to efficient and deployable AI something that shorter programs cannot achieve
+• Post-event mentorship and discussion forums will allow continued collaboration, peer support, and knowledge exchange for at least six months
+• Alumni networks and IEEE Collabratec workspaces will facilitate ongoing research partnerships and career opportunities
+
+Virtual Tour of Department of CSE (AI&ML):
+Departmenttourvideo.mp4
+
+Virtual Tour of PCCOE: PCET's Pimpri Chinchwad College of Engineering (PCCoE) Virtual Tour | Central Facilities
+
+PCCOE Website: https://www.pccoepune.com/
+
+13.3 Benefits to IEEE CIS
+• IEEE CIS Resource Center: All recordings, notebooks, and the Digital Handbook submitted within three months  long-term educational assets for worldwide access
+• IEEE vTools: All activities registered and reported per standard operating procedure L31
+• IEEE Collabratec: Dedicated workspace established for participant and mentor collaboration on XAI projects and code
+• IEEE Learning Network (ILN): Pre-event modules uploaded to provide all participants with baseline knowledge before arrival
+• IEEE CIS branding and visibility on all certificates, banners, sites, and digital content
+• Multi-channel IEEE dissemination: Results and impact stories submitted to IEEE CIS newsletters, Region 10 communications, and IEEE platforms
+• IEEE membership growth: All student participants encouraged to join IEEE CIS & IEEE with exposure to cutting-edge CI research
+• IEEE Standards and Ethics alignment: Content directly supports IEEE initiatives on efficient and deployable AI, ethical use, and transparency
+• IEEEXplore : Depicted project outcomes will be encouraged to submit to IEEE Conferences as research papers
+
+13.4 Measurable Outcomes
+TimeframeTarget MetricImmediate (during program)60 in-person participants; 100+ online viewers of plenary streams; 90%+ satisfaction ratingShort-term (within 6 months)30+ capstone projects completed and submitted; 10+ research collaborations initiated; 5,000+ downloads from IEEE CIS Resource CenterLong-term (within 2 years)20+ publications citing summer school materials; 10+ graduate theses on XAI topics; 50+ alumni employed in efficient and deployable AI roles
+13.5 Evaluation Methodology
+• Pre- and post-program knowledge assessments to measure learning gains in LLM fine-tuning and inference optimization concepts and tools
+• Hands-on lab evaluations assessing practical performance on assignments and capstone projects
+• Daily and weekly participant feedback forms capturing structured input on material quality, instruction, and relevance
+• Engagement metrics: attendance, Fine-Tuning Clinic participation, forum activity, and capstone completion rates
+• Post-event tracking at six months and two years to measure ongoing participant engagement and research output
+
+13.6 Sustainability and Long-Term Continuity
+• Replication potential: The six-day format and full set of open materials can be replicated annually at PCCoE or adapted by other IEEE Student Branch institutions across India and South Asia
+• Open Educational Resources: All program materials remain publicly available via IEEE CIS platforms after the event, at zero ongoing cost
+• Curriculum integration: PCCoE's CSE (AI & ML) department will incorporate lab materials into formal elective courses from the 2026-27 academic year onwards, reaching 200+ students annually
+• Ongoing community engagement: Discussion forums, monthly virtual seminars, and mentorship are planned for at least six months following the program
+• Research pipeline: Participants will be encouraged to pursue publications, project submissions to IEEE CIS competitions, and continued involvement with the society
+• Institutional sustainability: PCCoE and partner institutions will support future editions of the summer school and related programming
+
+14. Compliance and Commitments
+• Speaker confirmations will be initiated within three weeks of funding notification from IEEE CIS
+• All speaker and venue agreements will be finalized within three months of approval
+• No IEEE CIS funds will be used for honorariums, speaker fees, or IEEE membership dues
+• All expenses will comply fully with IEEE CIS Funding Guidelines (guidelines attached)
+• A final accounting of all CIS funds will be submitted to IEEE CIS within 60 days of the program closing on June 27, 2026
+• A final impact report and event recordings will be submitted to IEEE CIS within three months of closing
+• All materials will be archived and made freely available to the IEEE CIS community via the Resource Center
+• All activities will be registered through IEEE vTools Events with complete reporting
+
+Conclusion
+This six-day summer school on Fine-Tuning Large Language Models and Inference Optimization represents a significant, high-return investment for IEEE CIS in developing India's next generation of responsible AI practitioners. The extended format allows depth of learning that short programs cannot provide: participants will move from foundational LLM theory through fine-tuning implementation to optimized deployment, producing tangible skills, documented portfolios, and lasting professional networks.
+
+The program is designed for maximum cost-effectiveness. PCCoE's in-kind contribution of venue, infrastructure, catering, and administrative support, combined with voluntary speaker participation from leading Indian institutions, means that 100% of IEEE CIS cash funding goes directly toward student support, educational material production, and quality assurance. The open-access materials produced 30+ hours of recorded lectures, 24+ Jupyter notebooks, and the Digital Handbook of LLM Fine-Tuning and Inference Optimization  will benefit thousands of learners globally, long after the program concludes.
+
+We believe this proposal offers the IEEE CIS an exceptional opportunity to establish a leading position in responsible AI education in South Asia, demonstrate its commitment to diversity and inclusion, and generate lasting, measurable impact on the global computational intelligence community.
+
+
+
+
+
+
+
+
+

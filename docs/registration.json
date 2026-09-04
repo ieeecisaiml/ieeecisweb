@@ -1,0 +1,404 @@
+{
+    "formTitle": "IEEE CIS Summer School on Fine-Tuning Large Language Models and Inference Optimization - Registration Form",
+    "sections": [
+        {
+            "sectionNumber": 1,
+            "title": "Personal Information",
+            "fields": [
+                {
+                    "id": "full_name",
+                    "label": "Full Name",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "gender",
+                    "label": "Gender",
+                    "type": "select",
+                    "options": [
+                        "Male",
+                        "Female",
+                        "Other",
+                        "Prefer not to say"
+                    ],
+                    "required": false,
+                    "note": "Optional, if required for aggregate diversity reporting"
+                },
+                {
+                    "id": "dob_age",
+                    "label": "Date of Birth / Age",
+                    "type": "date",
+                    "required": true
+                },
+                {
+                    "id": "email",
+                    "label": "Email Address",
+                    "type": "email",
+                    "required": true
+                },
+                {
+                    "id": "phone_number",
+                    "label": "Phone Number",
+                    "type": "tel",
+                    "required": true
+                },
+                {
+                    "id": "whatsapp_number",
+                    "label": "WhatsApp Number",
+                    "type": "tel",
+                    "required": false
+                },
+                {
+                    "id": "city",
+                    "label": "City",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "state",
+                    "label": "State",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "country",
+                    "label": "Country",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "photograph",
+                    "label": "Photograph",
+                    "type": "file",
+                    "accept": "image/*",
+                    "required": false,
+                    "note": "Optional / if needed for ID card"
+                }
+            ]
+        },
+        {
+            "sectionNumber": 2,
+            "title": "Academic / Professional Information",
+            "fields": [
+                {
+                    "id": "current_status",
+                    "label": "Current Status",
+                    "type": "radio",
+                    "options": [
+                        "Undergraduate",
+                        "Master's"
+                    ],
+                    "required": true
+                },
+                {
+                    "id": "institution_name",
+                    "label": "Institution Name",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "department",
+                    "label": "Department",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "degree_program",
+                    "label": "Degree / Program",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "specialization",
+                    "label": "Specialization",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "id": "current_year",
+                    "label": "Current Year",
+                    "type": "radio",
+                    "options": [
+                        "2nd year",
+                        "3rd year",
+                        "Final year",
+                        "Other"
+                    ],
+                    "required": true
+                },
+                {
+                    "id": "expected_graduation_year",
+                    "label": "Expected Graduation Year",
+                    "type": "number",
+                    "required": true
+                },
+                {
+                    "id": "cgpa_percentage",
+                    "label": "CGPA / Percentage",
+                    "type": "text",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "sectionNumber": 3,
+            "title": "IEEE Information",
+            "note": "Since this is an IEEE CIS Summer School, definitely collect this information.",
+            "fields": [
+                {
+                    "id": "ieee_membership_status",
+                    "label": "IEEE Membership Status",
+                    "type": "radio",
+                    "options": [
+                        "IEEE Student Member",
+                        "Non-IEEE"
+                    ],
+                    "required": true
+                },
+                {
+                    "id": "ieee_membership_number",
+                    "label": "IEEE Membership Number",
+                    "type": "text",
+                    "required": false,
+                    "conditional": "Required if IEEE Student Member"
+                },
+                {
+                    "id": "ieee_section_name",
+                    "label": "IEEE Section Name",
+                    "type": "text",
+                    "required": false,
+                    "note": "Useful for registration categorization and IEEE reporting"
+                }
+            ]
+        },
+        {
+            "sectionNumber": 4,
+            "title": "Technical Skills",
+            "note": "This section should directly map to the selection rubric.",
+            "categories": [
+                {
+                    "categoryName": "AI/ML",
+                    "skillLevels": [
+                        "None",
+                        "Basic",
+                        "Intermediate",
+                        "Advanced"
+                    ],
+                    "skills": [
+                        "Machine Learning",
+                        "Deep Learning",
+                        "PyTorch",
+                        "TensorFlow/Keras",
+                        "NLP",
+                        "Transformers",
+                        "LLMs",
+                        "RAG",
+                        "Fine-tuning",
+                        "Model deployment"
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionNumber": 5,
+            "title": "Projects & Research",
+            "fields": [
+                {
+                    "id": "relevant_project",
+                    "label": "Describe your most relevant project",
+                    "type": "textarea",
+                    "wordLimit": "150-200",
+                    "required": true,
+                    "subFields": [
+                        "Problem",
+                        "Dataset",
+                        "Model/approach",
+                        "Tools",
+                        "Their contribution",
+                        "Result"
+                    ]
+                },
+                {
+                    "id": "github_profile",
+                    "label": "GitHub/Perforce Profile",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "portfolio_website",
+                    "label": "Portfolio/Website",
+                    "type": "url",
+                    "required": false
+                },
+                {
+                    "id": "publications",
+                    "label": "Publications",
+                    "type": "repeatable_group",
+                    "required": false,
+                    "note": "Optional",
+                    "fields": [
+                        {
+                            "id": "title",
+                            "label": "Title",
+                            "type": "text"
+                        },
+                        {
+                            "id": "venue",
+                            "label": "Venue",
+                            "type": "text"
+                        },
+                        {
+                            "id": "year",
+                            "label": "Year",
+                            "type": "number"
+                        },
+                        {
+                            "id": "doi_link",
+                            "label": "DOI/Link",
+                            "type": "url"
+                        }
+                    ]
+                },
+                {
+                    "id": "internships",
+                    "label": "Internships",
+                    "type": "repeatable_group",
+                    "required": false,
+                    "note": "Optional",
+                    "fields": [
+                        {
+                            "id": "organization",
+                            "label": "Organization",
+                            "type": "text"
+                        },
+                        {
+                            "id": "role",
+                            "label": "Role",
+                            "type": "text"
+                        },
+                        {
+                            "id": "duration",
+                            "label": "Duration",
+                            "type": "text"
+                        },
+                        {
+                            "id": "brief_description",
+                            "label": "Brief Description",
+                            "type": "textarea"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionNumber": 6,
+            "title": "Motivation / SOP",
+            "note": "One strong question is preferred over multiple mediocre questions.",
+            "fields": [
+                {
+                    "id": "motivation_primary",
+                    "label": "Why do you want to attend the IEEE CIS Summer School on Fine-Tuning Large Language Models and Inference Optimization, and how do you plan to apply the knowledge gained during the program?",
+                    "type": "textarea",
+                    "wordLimit": 250,
+                    "required": true
+                },
+                {
+                    "id": "topics_of_interest",
+                    "label": "What specific topic(s) from the Summer School are you most interested in learning?",
+                    "type": "multi_select",
+                    "options": [
+                        "LoRA / QLoRA",
+                        "SFT",
+                        "RLHF / DPO",
+                        "Quantization",
+                        "Pruning",
+                        "Knowledge Distillation",
+                        "vLLM / TGI",
+                        "RAG",
+                        "Deployment",
+                        "Cost/latency optimization",
+                        "Other"
+                    ],
+                    "required": false,
+                    "note": "Extremely useful during selection"
+                }
+            ]
+        },
+        {
+            "sectionNumber": 7,
+            "title": "Recommendation Letter",
+            "fields": [
+                {
+                    "id": "institution_recommendation_letter",
+                    "label": "Recommendation Letter from HoD (Institution)",
+                    "type": "file",
+                    "accept": "application/pdf",
+                    "required": true
+                },
+                {
+                    "id": "ieee_recommendation_letter",
+                    "label": "Recommendation Letter (IEEE)",
+                    "type": "file",
+                    "accept": "application/pdf",
+                    "required": false,
+                    "note": "Optional"
+                }
+            ]
+        },
+        {
+            "sectionNumber": 8,
+            "title": "Participation & Logistics",
+            "note": "Important since the program is in-person and intensive. Target is 60 in-person participants.",
+            "fields": [
+                {
+                    "id": "availability_confirmation",
+                    "label": "I confirm that I can attend the complete six-day program.",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "required": true
+                },
+                {
+                    "id": "accommodation_required",
+                    "label": "Do you require accommodation?",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "required": true,
+                    "note": "FCFS Basis"
+                },
+                {
+                    "id": "travel_assistance_required",
+                    "label": "Are you travelling from outside Pune City?",
+                    "type": "radio",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "required": true,
+                    "note": "Travel assistance is FCFS Basis"
+                },
+                {
+                    "id": "travelling_from",
+                    "label": "Travelling From",
+                    "type": "text",
+                    "required": false,
+                    "conditional": "Required if travel_assistance_required is Yes"
+                },
+                {
+                    "id": "travel_grant_justification",
+                    "label": "If YES, why should we consider you for a travel grant?",
+                    "type": "textarea",
+                    "characterLimit": 100,
+                    "required": false,
+                    "conditional": "Required if travel_assistance_required is Yes",
+                    "note": "Guidelines to be mentioned"
+                }
+            ]
+        }
+    ]
+}
