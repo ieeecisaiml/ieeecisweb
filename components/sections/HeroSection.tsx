@@ -9,7 +9,7 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Uppercase Eyebrow */}
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-[#f5f5f5] border border-[#d8d8d8] mb-6 animate-fadeInDown">
-          <span className="text-[12px] font-medium text-[#080808] uppercase tracking-[1.5px]">June 22–27, 2026</span>
+          <span className="text-[12px] font-medium text-[#080808] uppercase tracking-[1.5px]">Sept 26–Oct 1, 2026</span>
           <span className="inline-block w-1.5 h-1.5 bg-[#080808] rounded-full"></span>
           <span className="text-[12px] font-medium text-[#5a5a5a] uppercase tracking-[1.5px]">Pune, India</span>
         </div>
@@ -39,12 +39,6 @@ export function HeroSection() {
           >
             Register Now <Arrow size={16} />
           </Link>
-          <Link
-            href="/program"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-[#080808] font-medium text-base rounded-[4px] hover:bg-[#f5f5f5] transition-colors border border-[#d8d8d8]"
-          >
-            View Program
-          </Link>
         </div>
 
         {/* Partner Logos */}
@@ -60,16 +54,6 @@ export function HeroSection() {
                 alt="IEEE CIS Logo"
                 fill
                 sizes="(max-width: 768px) 208px, 208px"
-                className="object-contain"
-              />
-            </div>
-            {/* 2. ARC */}
-            <div className="relative h-16 w-40 flex-shrink-0">
-              <Image
-                src="/arc-logo.svg"
-                alt="ARC Logo"
-                fill
-                sizes="(max-width: 768px) 160px, 160px"
                 className="object-contain"
               />
             </div>
@@ -102,7 +86,7 @@ export function HeroSection() {
             <div className="w-11 h-11 rounded-full bg-[#f5f5f5] text-[#080808] flex items-center justify-center mb-1">
               <CalendarDays className="w-5 h-5" />
             </div>
-            <div className="font-semibold text-[#080808] text-sm">June 22–27, 2026</div>
+            <div className="font-semibold text-[#080808] text-sm">Sept 26–Oct 1, 2026</div>
             <div className="text-xs text-[#5a5a5a]">6-Day Intensive Program</div>
           </div>
 
@@ -111,7 +95,7 @@ export function HeroSection() {
               <MapPin className="w-5 h-5" />
             </div>
             <div className="font-semibold text-[#080808] text-sm">PCCoE Campus</div>
-            <div className="text-xs text-[#5a5a5a]">Nigdi, Pune, India</div>
+            <div className="text-xs text-[#5a5a5a]">Nigdi, Akurdi, Pune, Maharashtra</div>
           </div>
 
           <div className="flex flex-col items-center gap-2 py-5 px-4 rounded-[8px] bg-white border border-[#d8d8d8] hover:border-[#080808]/30 transition-colors">

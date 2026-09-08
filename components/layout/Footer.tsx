@@ -24,16 +24,6 @@ export function Footer() {
             <h4 className="font-semibold text-[#080808] text-sm mb-4">Quick Links</h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link href="/program" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
-                  Program
-                </Link>
-              </li>
-              <li>
-                <Link href="/speakers" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
-                  Plenary Presenters
-                </Link>
-              </li>
-              <li>
                 <Link href="/team" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
                   Our Team
                 </Link>
@@ -79,13 +69,13 @@ export function Footer() {
             <div className="space-y-3 text-sm text-[#5a5a5a]">
               <div className="flex items-start gap-2">
                 <Mail size={16} className="mt-0.5 flex-shrink-0 text-[#080808]" />
-                <a href="mailto:cissummerschool@pccoepune.org" className="hover:text-[#080808] transition-colors break-all">
-                  cissummerschool@pccoepune.org
+                <a href="mailto:ieee.cisaiml25@gmail.com" className="hover:text-[#080808] transition-colors break-all">
+                  ieee.cisaiml25@gmail.com
                 </a>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin size={16} className="mt-0.5 flex-shrink-0 text-[#080808]" />
-                <span>PCCoE, Sector 26, Pradhikaran, Nigdi, Pune – 411044, India</span>
+                <span>PCCoE, Sector 26, Pradhikaran, Nigdi, Akurdi, Pune – 411044, Maharashtra, India</span>
               </div>
             </div>
           </div>

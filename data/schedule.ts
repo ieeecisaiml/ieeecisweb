@@ -20,7 +20,7 @@ export interface DaySchedule {
 export const schedules: DaySchedule[] = [
   {
     dayNumber: 1,
-    date: 'June 22, 2026',
+    date: 'Sept 26, 2026',
     weekday: 'Monday',
     theme: 'Foundations of LLM Fine-Tuning',
     dayAccentColor: 'violet',
@@ -101,7 +101,7 @@ export const schedules: DaySchedule[] = [
   },
   {
     dayNumber: 2,
-    date: 'June 23, 2026',
+    date: 'Sept 27, 2026',
     weekday: 'Tuesday',
     theme: 'Parameter-Efficient Fine-Tuning Methods',
     dayAccentColor: 'cyan',
@@ -173,7 +173,7 @@ export const schedules: DaySchedule[] = [
   },
   {
     dayNumber: 3,
-    date: 'June 24, 2026',
+    date: 'Sept 28, 2026',
     weekday: 'Wednesday',
     theme: 'Advanced Fine-Tuning and Alignment',
     dayAccentColor: 'amber',
@@ -245,7 +245,7 @@ export const schedules: DaySchedule[] = [
   },
   {
     dayNumber: 4,
-    date: 'June 25, 2026',
+    date: 'Sept 29, 2026',
     weekday: 'Thursday',
     theme: 'Inference Optimization and Quantization',
     dayAccentColor: 'emerald',
@@ -317,7 +317,7 @@ export const schedules: DaySchedule[] = [
   },
   {
     dayNumber: 5,
-    date: 'June 26, 2026',
+    date: 'Sept 30, 2026',
     weekday: 'Friday',
     theme: 'Serving, Deployment, and Production Systems',
     dayAccentColor: 'rose',
@@ -389,7 +389,7 @@ export const schedules: DaySchedule[] = [
   },
   {
     dayNumber: 6,
-    date: 'June 27, 2026',
+    date: 'Oct 1, 2026',
     weekday: 'Saturday',
     theme: 'Capstone Projects and Final Presentations',
     dayAccentColor: 'indigo',

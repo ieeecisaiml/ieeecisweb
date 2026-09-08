@@ -42,7 +42,7 @@ export function RegistrationCard({ tier, mode, onRegisterClick }: RegistrationCa
                 </span>
               </div>
               <p className="text-xs text-[#5a5a5a] font-medium">
-                Early bird: Until June 5, 2026
+                Early bird: Until Sept 5, 2026
               </p>
             </>
           ) : (

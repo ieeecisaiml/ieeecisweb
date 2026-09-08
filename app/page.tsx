@@ -28,13 +28,15 @@ export default function Home() {
       <LoaderScreen />
       <Navbar />
       <SpotlightTicker />
-      <ImageSlider />
+      <div className="w-full relative aspect-[28/9]">
+        <Image src="/images/pccoecampus.jpeg" alt="PCCoE Campus" fill className="object-cover" sizes="100vw" priority />
+        <div className="absolute bottom-0 w-full bg-[#080808] text-white py-3 px-4 text-center font-medium tracking-[1.5px] text-xs uppercase select-none border-t border-[#d8d8d8]">
+          PIMPRI CHINCHWAD COLLEGE OF ENGINEERING CAMPUS
+        </div>
+      </div>
 
       {/* Hero Section */}
       <HeroSection />
-
-      {/* Stats Section */}
-      <StatsSection />
 
       {/* Why Attend Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white border-t border-[#d8d8d8]">
@@ -60,10 +62,10 @@ export default function Home() {
 
           <div className="bg-[#f5f5f5] border border-[#d8d8d8] rounded-[8px] p-8 text-center">
             <p className="text-lg text-[#080808] mb-2 font-semibold">
-              June 22–27, 2026 • Pune, India
+              Sept 26–Oct 1, 2026 • Pune, India
             </p>
             <p className="text-sm text-[#5a5a5a] mb-6 max-w-xl mx-auto">
-              Limited to 80 participants. Supported by IEEE CIS and hosted at PCCoE with state-of-the-art GPU-enabled facilities.
+              Supported by IEEE CIS and hosted at PCCoE with state-of-the-art GPU-enabled facilities.
             </p>
             <Link
               href="/register"
@@ -98,16 +100,12 @@ export default function Home() {
           {/* Featured Institutions Chips Grid */}
           <div className="flex flex-wrap items-center justify-center gap-2.5 mb-10 max-w-3xl mx-auto">
             {[
-              'IIT Bombay',
-              'ISI Kolkata',
-              'IISER Pune',
-              'VNIT Nagpur',
-              'NVIDIA (California)',
-              'UBS (Switzerland)',
-              'TCS Research',
-              'Dassault Systèmes',
-              'Neilsoft',
-              'Microsoft Research Collaborations',
+              'Renowned IITs',
+              'Premier Research Institutes',
+              'Top NITs',
+              'Leading MNCs',
+              'Global Tech Pioneers',
+              'Top Tier Universities',
             ].map((institution, idx) => (
               <span
                 key={idx}

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/program' },
   openGraph: {
     title: 'Program Schedule — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
-    description: '6-day curriculum covering LLM fine-tuning, quantization, deployment pipelines, and hands-on capstone projects. June 22–27, 2026.',
+    description: '6-day curriculum covering LLM fine-tuning, quantization, deployment pipelines, and hands-on capstone projects. Sept 26–Oct 1, 2026.',
     url: 'https://ieeecissummerschool2026.vercel.app/program',
   },
 }

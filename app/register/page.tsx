@@ -19,7 +19,7 @@ export default function RegisterPage() {
             Registration Application
           </h1>
           <p className="text-lg text-[#5a5a5a] max-w-2xl mx-auto leading-relaxed">
-            Complete the form below to apply for the 6-day intensive program on Fine-Tuning LLMs &amp; Inference Optimization. June 22–27, 2026 at PCCoE, Pune.
+            Complete the form below to apply for the 6-day intensive program on Fine-Tuning LLMs &amp; Inference Optimization. Sept 26–Oct 1, 2026 at PCCoE, Pune.
           </p>
         </div>
       </section>

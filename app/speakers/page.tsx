@@ -8,7 +8,7 @@ import { BookOpen, Cpu, Award, Building2, CheckCircle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Plenary Presenters — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Renowned professors and industry experts will be presenting at the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE. June 22–27, 2026.',
+    'Renowned professors and industry experts will be presenting at the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE. Sept 26–Oct 1, 2026.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/speakers' },
   openGraph: {
     title: 'Plenary Presenters — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',

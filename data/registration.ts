@@ -235,7 +235,7 @@ export const faqs = [
   {
     id: 'faq-3',
     question: 'Do I get a refund if I cannot attend?',
-    answer: 'Cancellations made before June 15 receive a full refund. After June 15, we offer a 50% refund or credit toward next year\'s program.',
+    answer: 'Cancellations made before Sept 15 receive a full refund. After Sept 15, we offer a 50% refund or credit toward next year\'s program.',
   },
   {
     id: 'faq-4',

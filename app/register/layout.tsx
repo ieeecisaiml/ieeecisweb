@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Register — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Register for the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE on Fine-Tuning LLMs & Inference Optimization. June 22–27, 2026 at PCCoE Pune.',
+    'Register for the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE on Fine-Tuning LLMs & Inference Optimization. Sept 26–Oct 1, 2026 at PCCoE Pune.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/register' },
   openGraph: {
     title: 'Register Now — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',

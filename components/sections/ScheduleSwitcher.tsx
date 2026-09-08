@@ -40,9 +40,9 @@ export function ScheduleSwitcher() {
               <TabsTrigger
                 key={idx}
                 value={`day-${idx + 1}`}
-                className={`flex flex-col gap-0.5 px-2 py-2 rounded-[4px] text-xs sm:text-sm font-medium transition-all ${
+                className={`flex flex-col gap-0.5 px-2 py-2 !h-auto rounded-[4px] text-xs sm:text-sm font-medium transition-all ${
                   selectedDay === idx
-                    ? 'bg-[#080808] text-white shadow-xs'
+                    ? '!bg-[#080808] !text-white shadow-xs'
                     : 'bg-transparent text-[#5a5a5a] hover:text-[#080808] hover:bg-white/80'
                 }`}
               >

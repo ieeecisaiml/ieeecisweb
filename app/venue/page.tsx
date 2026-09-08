@@ -7,7 +7,7 @@ import { MapPin, Plane, Hotel, Utensils, Train } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Venue & Travel — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'IEEE CIS Summer School is held at Department of CSE (AI & ML), Pimpri Chinchwad College of Engineering, Sector 26, Pradhikaran, Nigdi, Pune 411044, Maharashtra, India. Travel, accommodation, and local info.',
+    'IEEE CIS Summer School is held at Department of CSE (AI & ML), Pimpri Chinchwad College of Engineering, Sector 26, Pradhikaran, Nigdi, Akurdi, Pune - 411044, Maharashtra, India. Travel, accommodation, and local info.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/venue' },
   openGraph: {
     title: 'Venue & Travel — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
@@ -44,7 +44,7 @@ export default function VenuePage() {
             <div>
               <h2 className="text-2xl sm:text-3xl font-semibold text-[#080808] mb-1">Pimpri Chinchwad College of Engineering</h2>
               <p className="text-base text-[#080808] font-medium mb-1">Dept. of CSE (AI &amp; ML)</p>
-              <p className="text-[#5a5a5a] font-mono text-sm">Sector 26, Pradhikaran, Nigdi, Pune - 411044, Maharashtra, India</p>
+              <p className="text-[#5a5a5a] font-mono text-sm">Sector 26, Pradhikaran, Nigdi, Akurdi, Pune - 411044, Maharashtra, India</p>
             </div>
           </div>
 
@@ -114,7 +114,7 @@ export default function VenuePage() {
               </li>
               <li className="flex gap-3">
                 <span className="font-semibold text-[#080808]">2.</span>
-                <span>Book an Ola, Uber, or Prepaid Taxi to PCCoE Campus, Sector 26, Pradhikaran, Nigdi.</span>
+                <span>Book an Ola, Uber, or Prepaid Taxi to PCCoE Campus, Sector 26, Pradhikaran, Nigdi, Akurdi.</span>
               </li>
               <li className="flex gap-3">
                 <span className="font-semibold text-[#080808]">3.</span>
@@ -231,7 +231,7 @@ export default function VenuePage() {
               },
               {
                 title: 'Weather & Packing',
-                text: 'Late June brings pleasant weather to Pune, often with light monsoon showers (22-30°C). We recommend bringing a light jacket/umbrella.',
+                text: 'Late September brings pleasant weather to Pune, often with light monsoon showers (22-30°C). We recommend bringing a light jacket/umbrella.',
               },
               {
                 title: 'Language',

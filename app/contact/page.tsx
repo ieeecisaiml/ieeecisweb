@@ -83,7 +83,7 @@ export default function ContactPage() {
               <p className="text-[#5a5a5a] text-sm leading-relaxed">
                 Department of CSE (AI &amp; ML), PCCoE<br />
                 Pimpri Chinchwad College of Engineering<br />
-                Sector 26, Pradhikaran, Nigdi, Pune – 411044, Maharashtra, India
+                Sector 26, Pradhikaran, Nigdi, Akurdi, Pune – 411044, Maharashtra, India
               </p>
             </Card>
           </div>

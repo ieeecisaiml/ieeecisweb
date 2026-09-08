@@ -7,6 +7,14 @@ export function LoaderScreen() {
   const [isMounted, setIsMounted] = useState(true)
 
   useEffect(() => {
+    const shown = sessionStorage.getItem('loaderShown')
+    if (shown) {
+      setIsMounted(false)
+      setIsVisible(false)
+      return
+    }
+    sessionStorage.setItem('loaderShown', 'true')
+
     // Fade out start after 9 seconds (takes 1s to fade out)
     const fadeTimer = setTimeout(() => {
       setIsVisible(false)

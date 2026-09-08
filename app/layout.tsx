@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
   },
   description:
-    'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE — an intensive 6-day IEEE CIS residential program on Fine-Tuning Large Language Models & Inference Optimization. June 22–27, 2026, Pimpri Chinchwad College of Engineering, Pune, India.',
+    'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE — an intensive 6-day IEEE CIS residential program on Fine-Tuning Large Language Models & Inference Optimization. Sept 26–Oct 1, 2026, Pimpri Chinchwad College of Engineering, Pune, India.',
   keywords: [
     'IEEE CIS Summer School',
     'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     siteName: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
     title: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
     description:
-      'Intensive 6-day IEEE CIS residential program. Learn to fine-tune LLMs (LLaMA, Mistral), apply GPTQ/AWQ quantization, and deploy at scale with vLLM. June 22–27, 2026 at PCCoE, Pune.',
+      'Intensive 6-day IEEE CIS residential program. Learn to fine-tune LLMs (LLaMA, Mistral), apply GPTQ/AWQ quantization, and deploy at scale with vLLM. Sept 26–Oct 1, 2026 at PCCoE, Pune.',
     images: [
       {
         url: '/images/pccoecampus.jpeg',
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     creator: '@pccoe_pune',
     title: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
     description:
-      'Intensive 6-day IEEE CIS residential AI school at PCCoE Pune. Fine-tune LLaMA, Mistral, Phi. LoRA, QLoRA, GPTQ, vLLM. June 22–27, 2026.',
+      'Intensive 6-day IEEE CIS residential AI school at PCCoE Pune. Fine-tune LLaMA, Mistral, Phi. LoRA, QLoRA, GPTQ, vLLM. Sept 26–Oct 1, 2026.',
     images: ['/images/pccoecampus.jpeg'],
   },
 
@@ -151,7 +151,7 @@ const jsonLd = {
         name: 'Pimpri Chinchwad College of Engineering',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'Survey No. 4, Nigdi Pradhikaran',
+          streetAddress: 'Sector 26, Pradhikaran, Nigdi, Akurdi',
           addressLocality: 'Pune',
           addressRegion: 'Maharashtra',
           postalCode: '411044',
