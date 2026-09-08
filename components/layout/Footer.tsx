@@ -56,6 +56,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/travel-grant" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
+                  Travel Grant
+                </Link>
+              </li>
+              <li>
+                <Link href="/code-of-conduct" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
+                  Code of Conduct
+                </Link>
+              </li>
+              <li>
                 <a href="https://ieee-cis.org" target="_blank" rel="noopener noreferrer" className="text-[#5a5a5a] hover:text-[#080808] transition-colors">
                   IEEE CIS Society
                 </a>

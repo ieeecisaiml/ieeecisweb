@@ -40,46 +40,42 @@ export default function AboutPage() {
           <p className="text-xs font-medium uppercase tracking-[1.5px] text-[#888888] mb-4">
             Organized &amp; Supported By
           </p>
-          <div className="flex flex-row flex-nowrap items-center justify-start lg:justify-center gap-6 md:gap-10 bg-white py-6 px-8 rounded-[8px] border border-[#d8d8d8] max-w-4xl mx-auto overflow-x-auto no-scrollbar shadow-sm">
-            {/* 1. IEEE CIS */}
-            <div className="relative h-16 w-52 flex-shrink-0">
-              <Image
-                src="/ieeecis.png"
-                alt="IEEE CIS Logo"
-                fill
-                sizes="(max-width: 768px) 208px, 208px"
-                className="object-contain"
-              />
-            </div>
-            {/* 2. ARC */}
-            <div className="relative h-16 w-40 flex-shrink-0">
-              <Image
-                src="/arc-logo.svg"
-                alt="ARC Logo"
-                fill
-                sizes="(max-width: 768px) 160px, 160px"
-                className="object-contain"
-              />
-            </div>
-            {/* 3. IEEE Pune Section */}
-            <div className="relative h-16 w-32 flex-shrink-0">
-              <Image
-                src="/ieeepune.png"
-                alt="IEEE Pune Section Logo"
-                fill
-                sizes="(max-width: 768px) 128px, 128px"
-                className="object-contain"
-              />
-            </div>
-            {/* 4. PCCoE */}
-            <div className="relative h-16 w-32 flex-shrink-0">
-              <Image
-                src="/pccoe.jpeg"
-                alt="PCCoE Logo"
-                fill
-                sizes="(max-width: 768px) 128px, 128px"
-                className="object-contain rounded-sm"
-              />
+          <div className="w-full pb-4 mb-4">
+            <div className="flex flex-row items-stretch justify-between bg-white border border-[#d8d8d8] rounded-[12px] shadow-sm w-full max-w-6xl mx-auto divide-x divide-[#d8d8d8] overflow-hidden">
+              {/* Logo 1 - IEEE CIS (17%) */}
+              <div style={{ width: '17%' }} className="flex items-center justify-center p-3 sm:p-5">
+                <div className="relative w-full h-14 sm:h-16">
+                  <Image src="/logos/logo1.png" alt="IEEE CIS" fill className="object-contain" />
+                </div>
+              </div>
+              
+              {/* Logo 2 - IEEE CIS PCCOE SBC (24%) */}
+              <div style={{ width: '24%' }} className="flex items-center justify-center p-3 sm:p-5">
+                <div className="relative w-full h-20 sm:h-28">
+                  <Image src="/logos/logo2.png" alt="IEEE CIS PCCOE" fill className="object-contain" />
+                </div>
+              </div>
+
+              {/* Logo 3 - PCCOE (16%) */}
+              <div style={{ width: '16%' }} className="flex items-center justify-center p-3 sm:p-5">
+                <div className="relative w-full h-20 sm:h-28">
+                  <Image src="/logos/logo3.png" alt="PCCOE Logo" fill className="object-contain" />
+                </div>
+              </div>
+
+              {/* Logo 4 - IEEE Pune Section (26%) */}
+              <div style={{ width: '26%' }} className="flex items-center justify-center p-3 sm:p-5">
+                <div className="relative w-full h-14 sm:h-16">
+                  <Image src="/logos/logo4.png" alt="IEEE Pune Section" fill className="object-contain" />
+                </div>
+              </div>
+
+              {/* Logo 5 - IEEE YP Pune (17%) */}
+              <div style={{ width: '17%' }} className="flex items-center justify-center p-3 sm:p-5">
+                <div className="relative w-full h-14 sm:h-16">
+                  <Image src="/logos/logo5.png" alt="IEEE YP Pune" fill className="object-contain" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

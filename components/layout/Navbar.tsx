@@ -18,11 +18,14 @@ export function Navbar() {
   }, [])
 
   const navLinks = [
+    { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/team', label: 'Our Team' },
     { href: '/venue', label: 'Venue' },
+    { href: '/travel-grant', label: 'Travel Grant' },
     { href: '/faq', label: 'FAQ' },
     { href: '/contact', label: 'Contact' },
+    { href: '/code-of-conduct', label: 'Code of Conduct' },
   ]
 
   return (
@@ -33,44 +36,60 @@ export function Navbar() {
           : 'border-b border-[#d8d8d8]/80'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         <div className="flex justify-between items-center h-18">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10 flex-shrink-0 rounded-[4px] overflow-hidden border border-[#d8d8d8] bg-white p-0.5 transition-transform group-hover:scale-105">
-              <Image
-                src="/pccoe.jpeg"
-                alt="PCCoE Logo"
-                fill
-                sizes="40px"
-                className="object-contain"
-                priority
-              />
+          <Link href="/" className="flex items-center gap-3.5 group flex-shrink-0">
+            <div className="flex flex-row items-stretch justify-start bg-white border border-[#e5e5e5] rounded-[6px] shadow-sm divide-x divide-[#e5e5e5] overflow-hidden w-[260px] sm:w-[320px] md:w-[420px] lg:w-[360px] xl:w-[380px] 2xl:w-[460px] h-[36px] sm:h-[42px] md:h-[48px] lg:h-[42px] xl:h-[46px] 2xl:h-[52px] transition-transform group-hover:scale-[1.02] flex-shrink-0">
+              <div style={{ flex: 2.68 }} className="flex items-center justify-center p-1 sm:p-1.5 lg:p-2">
+                <div className="relative w-full h-full">
+                  <Image src="/logos/logo1.png" alt="IEEE CIS" fill className="object-contain" />
+                </div>
+              </div>
+              <div style={{ flex: 1.8 }} className="flex items-center justify-center p-0.5 sm:p-1 lg:p-1.5">
+                <div className="relative w-full h-full">
+                  <Image src="/logos/logo2.png" alt="IEEE CIS PCCOE" fill className="object-contain" />
+                </div>
+              </div>
+              <div style={{ flex: 1.17 }} className="flex items-center justify-center p-1 sm:p-1.5 lg:p-2">
+                <div className="relative w-full h-full">
+                  <Image src="/logos/logo3.png" alt="PCCOE Logo" fill className="object-contain" />
+                </div>
+              </div>
+              <div style={{ flex: 3.85 }} className="flex items-center justify-center p-1 sm:p-1.5 lg:p-2">
+                <div className="relative w-full h-full">
+                  <Image src="/logos/logo4.png" alt="IEEE Pune Section" fill className="object-contain" />
+                </div>
+              </div>
+              <div style={{ flex: 1.75 }} className="flex items-center justify-center p-1 sm:p-1.5 lg:p-2">
+                <div className="relative w-full h-full">
+                  <Image src="/logos/logo5.png" alt="IEEE YP Pune" fill className="object-contain" />
+                </div>
+              </div>
             </div>
-            <div className="flex flex-col">
-              <span className="text-sm sm:text-base font-semibold text-[#080808] leading-tight tracking-tight">
+            <div className="flex flex-col justify-center hidden xl:flex flex-shrink-0">
+              <span className="text-[15px] 2xl:text-[17px] font-semibold text-[#111111] leading-[1.2] tracking-tight">
                 IEEE CIS Summer School
               </span>
-              <span className="text-[11px] font-normal text-[#5a5a5a] hidden sm:inline">
-                hosted by Dept. of CSE (AI &amp; ML), PCCOE
+              <span className="text-[11px] 2xl:text-[13px] font-medium text-[#666666] leading-[1.2] mt-0.5">
+                hosted by Dept. of CSE (AI & ML), PCCOE
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1 lg:gap-2">
+          <div className="hidden lg:flex items-center gap-1 2xl:gap-2 flex-shrink-0">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-1.5 text-sm font-medium text-[#363636] hover:text-[#080808] hover:bg-[#f5f5f5] rounded-[4px] transition-colors"
+                className="px-2 2xl:px-3 py-1.5 text-[13px] 2xl:text-sm font-medium text-[#363636] hover:text-[#080808] hover:bg-[#f5f5f5] rounded-[4px] transition-colors whitespace-nowrap"
               >
                 {link.label}
               </Link>
             ))}
             <Link
               href="/register"
-              className="ml-3 px-4 py-2 bg-[#080808] text-white rounded-[4px] text-sm font-medium hover:bg-[#222222] transition-colors"
+              className="ml-2 2xl:ml-3 px-3 2xl:px-4 py-1.5 2xl:py-2 bg-[#080808] text-white rounded-[4px] text-[13px] 2xl:text-sm font-medium hover:bg-[#222222] transition-colors whitespace-nowrap"
             >
               Register
             </Link>
@@ -79,7 +98,7 @@ export function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileOpen(!isMobileOpen)}
-            className="md:hidden p-2 rounded-[4px] text-[#080808] hover:bg-[#f5f5f5] transition-colors border border-[#d8d8d8]"
+            className="lg:hidden p-2 rounded-[4px] text-[#080808] hover:bg-[#f5f5f5] transition-colors border border-[#d8d8d8] flex-shrink-0 ml-2"
             aria-label="Toggle Menu"
           >
             {isMobileOpen ? <X size={20} /> : <Menu size={20} />}
@@ -88,7 +107,7 @@ export function Navbar() {
 
         {/* Mobile Navigation */}
         {isMobileOpen && (
-          <div className="md:hidden bg-white border-b border-[#d8d8d8] py-4 px-2 space-y-1">
+          <div className="lg:hidden bg-white border-b border-[#d8d8d8] py-4 px-2 space-y-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

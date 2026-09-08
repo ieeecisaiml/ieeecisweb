@@ -79,32 +79,51 @@ export default function TeamPage() {
   const studentCoordinators = [
     {
       name: 'Kshitij Jadhav',
-      role: 'Student Coordinator',
-      area: 'Technical Operations & Logistics',
+      role: 'Organizing Committee',
+      area: 'Overall Organization & Media Publicity',
       image: '/kshitij.png',
       link: 'https://www.linkedin.com/in/kshitij-jadhav/',
     },
     {
       name: 'Ruturaj Pandharkar',
-      role: 'Student Coordinator',
-      area: 'Participant Relations & Logistics',
+      role: 'Organizing Committee',
+      area: 'Overall Organization & Media Publicity',
       image: '/ruturaj.jpeg',
       link: 'https://www.linkedin.com/in/ruturaj-pandharkar/',
     },
     {
-      name: 'Piyush Daspute',
-      role: 'Student Coordinator',
-      area: 'Registration & Operations',
+      name: 'Parth Bendre',
+      role: 'Photography & Documentation',
+      area: 'Photography & Videography',
       image: null,
-      link: null,
+      link: 'https://www.linkedin.com/in/parth-bendre-732abb32a',
     },
     {
-      name: 'Trupti Sukale',
-      role: 'Student Coordinator',
-      area: 'Event Coordination & Outreach',
-      image: null,
+      name: 'Debottam Debnath',
+      role: 'Hospitality & Venue Setup',
+      area: 'Technical Support & Catering',
+      image: '/debottam_debnath.jpg',
       link: null,
     },
+  ]
+
+  const juniorCoordinators = [
+    { name: 'Rohan Prasad Khulge', role: 'Website & Digital Committee', area: 'Online Portal & Digital Assets', image: '/team/junior/Rohan_Khulge.jpg', link: 'https://www.linkedin.com/in/rohan-khulge-47882b3a1/' },
+    { name: 'Siddhesh Sunil Birewar', role: 'Student Volunteer', area: 'Logistics & Operations', image: '/team/junior/Siddhesh Birewar.jpg', link: 'https://www.linkedin.com/in/siddhesh-birewar-20bb3136b' },
+    { name: 'Vernit Garg', role: 'Venue Setup & Technical', area: 'Stage & Anchoring', image: '/team/junior/Vernit Garg.jpg', link: 'https://www.linkedin.com/in/vernit-garg-231539385' },
+    { name: 'Shardul Patil', role: 'Guest Coordination', area: 'Industry Delegates & SPOC', image: '/team/junior/Shardul_Patil.jpg', link: 'https://www.linkedin.com/in/shardul-shriniwas-patil' },
+    { name: 'Anay Gawande', role: 'Website & Digital Committee', area: 'Online Portal & Digital Assets', image: '/team/junior/Anay Gawande.png', link: 'https://www.linkedin.com/in/anay-gawande-11692b403' },
+    { name: 'Parth Gawade', role: 'Hospitality Committee', area: 'Catering & Transport Logistics', image: '/team/junior/Parth_Gawade.png', link: 'https://www.linkedin.com/in/parth-gawade-610' },
+    { name: 'Pranidhi Bagmar', role: 'Session Management', area: 'Anchoring & Evaluation', image: null, link: 'https://www.linkedin.com/in/pranidhi-bagmar-b32a5540a' },
+    { name: 'Subash Upadhyaya', role: 'Photography & Documentation', area: 'Photography & Videography', image: null, link: 'https://www.linkedin.com/in/subash-upadhyaya-47b3a32b8' },
+    { name: 'Aakanksha Rajbali Yadav', role: 'Branding & Social Media', area: 'Branding & Publicity', image: '/team/junior/Aakanksha_Yadav.png', link: 'https://www.linkedin.com/in/aakanksha-rajbali-yadav' },
+    { name: 'Shrushti Kashinath Dalvi', role: 'Registration & Venue Setup', area: 'Registration Desk & Anchoring', image: '/team/junior/Shrushti_Dalvi.jpg', link: 'https://www.linkedin.com/in/shrushti-dalvi-2b1629400' },
+    { name: 'Madhav Zanwar', role: 'Registration Committee', area: 'Registration & Participant Kits', image: null, link: 'https://www.linkedin.com/in/madhav-zanwar-395ba1389/' },
+    { name: 'Vishweashwar Hanchate', role: 'Design & Printing', area: 'Design & Branding Materials', image: '/team/junior/Vishweshwar_Hanchate.png', link: 'https://www.linkedin.com/in/vishweshwar-hanchate-8267023a8/' },
+    { name: 'Anuj Deshpande', role: 'Venue Setup & Technical', area: 'Technical Support (AV & IT)', image: '/team/junior/anuj_deshpande.png', link: 'https://www.linkedin.com/in/anuj-deshpande-b5a499405/' },
+    { name: 'Savi Shah', role: 'Hospitality Committee', area: 'Guest Hospitality & Accommodation', image: '/team/junior/Savi Shah.png', link: null },
+    { name: 'Vaibhavi Paturde', role: 'Design & Printing', area: 'Design & Branding Materials', image: '/team/junior/Vaibhavi_Paturde.png', link: 'https://www.linkedin.com/in/vaibhavi-paturde-422262404' },
+    { name: 'Atharva Wani', role: 'Documentation Committee', area: 'Booklet & Final Report', image: null, link: 'https://www.linkedin.com/in/atharva-wani-722943425' },
   ]
 
   const devTeam = [
@@ -158,7 +177,8 @@ export default function TeamPage() {
                           src={member.image}
                           alt={member.name}
                           fill
-                          sizes="64px"
+                          sizes="256px"
+                          quality={95}
                           className="object-cover"
                         />
                       ) : (
@@ -201,17 +221,18 @@ export default function TeamPage() {
 
       {/* Student Coordinators */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
+          {/* Senior Team */}
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-[#080808] mb-3">
-              Student Coordinators
+              Senior Student Coordinators
             </h2>
             <p className="text-[#5a5a5a] max-w-2xl mx-auto text-sm sm:text-base">
               Dedicated student leads driving participant onboarding, technical setup, and day-to-day coordination.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             {studentCoordinators.map((coordinator, idx) => (
               <Card
                 key={idx}
@@ -224,7 +245,8 @@ export default function TeamPage() {
                         src={coordinator.image}
                         alt={coordinator.name}
                         fill
-                        sizes="80px"
+                        sizes="256px"
+                        quality={95}
                         className="object-cover"
                       />
                     ) : (
@@ -251,6 +273,60 @@ export default function TeamPage() {
                 )}
               </Card>
             ))}
+          </div>
+
+          {/* Junior Team */}
+          <div className="mt-24">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl sm:text-3xl font-semibold text-[#080808] mb-3">
+                Junior Student Team
+              </h2>
+              <p className="text-[#5a5a5a] max-w-2xl mx-auto text-sm sm:text-base">
+                Passionate student volunteers assisting with logistics, operations, and participant engagement.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
+              {juniorCoordinators.map((coordinator, idx) => (
+                <Card
+                  key={idx}
+                  className="p-4 sm:p-5 border border-[#d8d8d8] bg-white rounded-[8px] text-center flex flex-col items-center justify-between hover:border-[#080808] hover:shadow-layered transition-all duration-200"
+                >
+                  <div className="flex flex-col items-center">
+                    <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#f0f0f0] text-[#080808] flex items-center justify-center font-semibold text-lg sm:text-xl mb-3 sm:mb-4 overflow-hidden border border-[#d8d8d8] shadow-sm">
+                      {coordinator.image ? (
+                        <Image
+                          src={coordinator.image}
+                          alt={coordinator.name}
+                          fill
+                          sizes="256px"
+                          quality={95}
+                          className="object-cover"
+                        />
+                      ) : (
+                        <span className="text-[#080808] font-semibold">
+                          {coordinator.name.split(' ').map((n) => n[0]).slice(0, 2).join('')}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="font-semibold text-[#080808] text-[13px] sm:text-sm mb-1 leading-tight">{coordinator.name}</h3>
+                    <p className="text-[11px] sm:text-xs font-medium text-[#5a5a5a]">{coordinator.role}</p>
+                  </div>
+
+                  {coordinator.link && (
+                    <a
+                      href={coordinator.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 sm:mt-4 text-[#5a5a5a] hover:text-[#080808] transition-colors p-1"
+                      aria-label={`${coordinator.name} LinkedIn`}
+                    >
+                      <LinkedinIcon className="w-4 h-4" />
+                    </a>
+                  )}
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -283,7 +359,8 @@ export default function TeamPage() {
                         src={member.image}
                         alt={member.name}
                         fill
-                        sizes="96px"
+                        sizes="256px"
+                        quality={95}
                         className="object-cover"
                       />
                     ) : (
