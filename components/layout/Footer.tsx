@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* About */}
           <div>
-            <h3 className="font-semibold text-[#080808] text-base mb-1">IEEE CIS Summer School</h3>
+            <h3 className="font-semibold text-[#080808] text-base mb-1">IEEE CIS School</h3>
             <p className="text-xs font-medium text-[#5a5a5a] mb-3">
               hosted by Department of CSE (AI &amp; ML), PCCOE
             </p>

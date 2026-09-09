@@ -32,7 +32,7 @@ export default function AdminPortalPage() {
             </div>
             <h1 className="text-3xl font-semibold text-[#080808] tracking-[-0.8px]">Admin Portal</h1>
             <p className="text-sm text-[#5a5a5a] mt-2">
-              IEEE CIS Summer School Administration
+              IEEE CIS School Administration
             </p>
             <p className="text-xs text-[#080808] font-medium mt-0.5">
               hosted by Dept. of CSE (AI &amp; ML), PCCoE

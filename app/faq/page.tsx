@@ -55,7 +55,7 @@ export default function FAQPage() {
             Support &amp; FAQ
           </div>
           <h1 className="text-4xl sm:text-5xl font-semibold text-[#080808] mb-4 tracking-[-0.8px]">Frequently Asked Questions</h1>
-          <p className="text-lg sm:text-xl text-[#5a5a5a] leading-relaxed">Find answers to common questions about the IEEE CIS Summer School</p>
+          <p className="text-lg sm:text-xl text-[#5a5a5a] leading-relaxed">Find answers to common questions about the IEEE CIS School</p>
         </div>
       </section>
 

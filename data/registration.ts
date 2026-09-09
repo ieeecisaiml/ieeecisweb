@@ -205,7 +205,7 @@ export const registrationBenefits: Benefit[] = [
     id: 'benefit-4',
     icon: 'award',
     title: 'Recognized Certificate',
-    description: 'Receive an official PCCOE Summer School certificate upon completion.',
+    description: 'Receive an official PCCOE School certificate upon completion.',
   },
   {
     id: 'benefit-5',

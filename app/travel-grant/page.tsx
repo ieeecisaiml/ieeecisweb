@@ -4,8 +4,8 @@ import { Footer } from '@/components/layout/Footer'
 import { PlaneTakeoff } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Travel Grant — IEEE CIS Summer School 2026',
-  description: 'Information regarding travel grants for the IEEE CIS Summer School hosted by PCCOE.',
+  title: 'Travel Grant — IEEE CIS School 2026',
+  description: 'Information regarding travel grants for the IEEE CIS School hosted by PCCOE.',
 }
 
 export default function TravelGrantPage() {

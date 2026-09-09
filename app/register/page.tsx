@@ -13,7 +13,7 @@ export default function RegisterPage() {
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-white border-b border-[#d8d8d8]">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-[4px] bg-[#f5f5f5] text-[#080808] text-xs font-medium uppercase tracking-[1.5px] mb-4 border border-[#d8d8d8]">
-            IEEE CIS Summer School 2026
+            IEEE CIS School 2026
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#080808] mb-4 tracking-[-0.8px]">
             Registration Application

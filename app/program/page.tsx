@@ -6,12 +6,12 @@ import { Arrow } from '@/components/ui/arrow'
 import { CheckCircle2 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Program Schedule — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+  title: 'Program Schedule — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Explore the 6-day program of the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE. From LLM fundamentals and LoRA/QLoRA fine-tuning to GPTQ quantization, vLLM serving, and capstone project deployment.',
+    'Explore the 6-day program of the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE. From LLM fundamentals and LoRA/QLoRA fine-tuning to GPTQ quantization, vLLM serving, and capstone project deployment.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/program' },
   openGraph: {
-    title: 'Program Schedule — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    title: 'Program Schedule — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     description: '6-day curriculum covering LLM fine-tuning, quantization, deployment pipelines, and hands-on capstone projects. Sept 26–Oct 1, 2026.',
     url: 'https://ieeecissummerschool2026.vercel.app/program',
   },

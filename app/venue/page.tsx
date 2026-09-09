@@ -5,12 +5,12 @@ import { Card } from '@/components/ui/card'
 import { MapPin, Plane, Hotel, Utensils, Train } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Venue & Travel — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+  title: 'Venue & Travel — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'IEEE CIS Summer School is held at Department of CSE (AI & ML), Pimpri Chinchwad College of Engineering, Sector 26, Pradhikaran, Nigdi, Akurdi, Pune - 411044, Maharashtra, India. Travel, accommodation, and local info.',
+    'IEEE CIS School is held at Department of CSE (AI & ML), Pimpri Chinchwad College of Engineering, Sector 26, Pradhikaran, Nigdi, Akurdi, Pune - 411044, Maharashtra, India. Travel, accommodation, and local info.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/venue' },
   openGraph: {
-    title: 'Venue & Travel — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    title: 'Venue & Travel — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     description: 'Located at PCCoE Pune — GPU-enabled labs, world-class facilities. Directions, accommodation, and Pune travel guide for participants.',
     url: 'https://ieeecissummerschool2026.vercel.app/venue',
   },

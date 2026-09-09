@@ -17,7 +17,7 @@ export function HeroSection() {
         {/* Organizer Eyebrow */}
         <div className="mb-4 animate-fadeInUp" style={{ animationDelay: '0.05s' }}>
           <span className="block text-xs sm:text-sm font-medium uppercase tracking-[1.5px] text-[#5a5a5a]">
-            IEEE CIS Summer School • Dept. of CSE (AI &amp; ML), PCCOE
+            IEEE CIS School • Dept. of CSE (AI &amp; ML), PCCOE
           </span>
         </div>
 
@@ -49,37 +49,37 @@ export function HeroSection() {
           <div className="w-full pb-4 mb-4">
             <div className="flex flex-row items-stretch justify-between bg-white border border-[#d8d8d8] rounded-[12px] shadow-sm w-full max-w-6xl mx-auto divide-x divide-[#d8d8d8] overflow-hidden">
               {/* Logo 1 - IEEE CIS (17%) */}
-              <div style={{ width: '17%' }} className="flex items-center justify-center p-3 sm:p-5">
+              <div style={{ width: '17%' }} className="flex items-center justify-center p-4 sm:p-6">
                 <div className="relative w-full h-14 sm:h-16">
                   <Image src="/logos/logo1.png" alt="IEEE CIS" fill className="object-contain" />
                 </div>
               </div>
               
               {/* Logo 2 - IEEE CIS PCCOE SBC (24%) */}
-              <div style={{ width: '24%' }} className="flex items-center justify-center p-3 sm:p-5">
+              <div style={{ width: '24%' }} className="flex items-center justify-center p-2 sm:p-3">
                 <div className="relative w-full h-20 sm:h-28">
                   <Image src="/logos/logo2.png" alt="IEEE CIS PCCOE" fill className="object-contain" />
                 </div>
               </div>
 
-              {/* Logo 3 - PCCOE (16%) */}
-              <div style={{ width: '16%' }} className="flex items-center justify-center p-3 sm:p-5">
-                <div className="relative w-full h-20 sm:h-28">
-                  <Image src="/logos/logo3.png" alt="PCCOE Logo" fill className="object-contain" />
-                </div>
-              </div>
-
-              {/* Logo 4 - IEEE Pune Section (26%) */}
-              <div style={{ width: '26%' }} className="flex items-center justify-center p-3 sm:p-5">
+              {/* Logo 4 - IEEE Pune Section (22%) */}
+              <div style={{ width: '22%' }} className="flex items-center justify-center p-4 sm:p-6">
                 <div className="relative w-full h-14 sm:h-16">
                   <Image src="/logos/logo4.png" alt="IEEE Pune Section" fill className="object-contain" />
                 </div>
               </div>
 
-              {/* Logo 5 - IEEE YP Pune (17%) */}
-              <div style={{ width: '17%' }} className="flex items-center justify-center p-3 sm:p-5">
-                <div className="relative w-full h-14 sm:h-16">
+              {/* Logo 5 - IEEE YP Pune (21%) */}
+              <div style={{ width: '21%' }} className="flex items-center justify-center p-1 sm:p-2">
+                <div className="relative w-full h-16 sm:h-20">
                   <Image src="/logos/logo5.png" alt="IEEE YP Pune" fill className="object-contain" />
+                </div>
+              </div>
+
+              {/* Logo 3 - PCCOE (16%) */}
+              <div style={{ width: '16%' }} className="flex items-center justify-center p-0 sm:p-1">
+                <div className="relative w-full h-20 sm:h-28">
+                  <Image src="/logos/logo3.png" alt="PCCOE Logo" fill className="object-contain" />
                 </div>
               </div>
             </div>

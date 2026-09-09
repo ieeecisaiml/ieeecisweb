@@ -17,17 +17,17 @@ export const metadata: Metadata = {
 
   // Primary SEO
   title: {
-    default: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
-    template: '%s | IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    default: 'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
+    template: '%s | IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   },
   description:
-    'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE — an intensive 6-day IEEE CIS residential program on Fine-Tuning Large Language Models & Inference Optimization. Sept 26–Oct 1, 2026, Pimpri Chinchwad College of Engineering, Pune, India.',
+    'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE — an intensive 6-day IEEE CIS residential program on Fine-Tuning Large Language Models & Inference Optimization. Sept 26–Oct 1, 2026, Pimpri Chinchwad College of Engineering, Pune, India.',
   keywords: [
-    'IEEE CIS Summer School',
-    'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    'IEEE CIS School',
+    'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     'Ieeecissummerschool',
     'ieeecissummerschool2026',
-    'PCCOE Summer School',
+    'PCCOE School',
     'Fine-Tuning LLMs',
     'Large Language Models',
     'Inference Optimization',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     'LoRA QLoRA',
     'GPTQ AWQ quantization',
     'vLLM TGI deployment',
-    'AI Summer School India',
+    'AI School India',
     'IEEE Computational Intelligence Society',
     'Pimpri Chinchwad College of Engineering',
     'PCCoE Pune',
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: BASE_URL,
-    siteName: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
-    title: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    siteName: 'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
+    title: 'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     description:
       'Intensive 6-day IEEE CIS residential program. Learn to fine-tune LLMs (LLaMA, Mistral), apply GPTQ/AWQ quantization, and deploy at scale with vLLM. Sept 26–Oct 1, 2026 at PCCoE, Pune.',
     images: [
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
         url: '/images/pccoecampus.jpeg',
         width: 1400,
         height: 450,
-        alt: 'IEEE CIS Summer School — PCCoE Campus Pune',
+        alt: 'IEEE CIS School — PCCoE Campus Pune',
         type: 'image/jpeg',
       },
     ],
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@pccoe_pune',
     creator: '@pccoe_pune',
-    title: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    title: 'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     description:
       'Intensive 6-day IEEE CIS residential AI school at PCCoE Pune. Fine-tune LLaMA, Mistral, Phi. LoRA, QLoRA, GPTQ, vLLM. Sept 26–Oct 1, 2026.',
     images: ['/images/pccoecampus.jpeg'],
@@ -132,9 +132,9 @@ const jsonLd = {
     {
       '@type': 'Event',
       '@id': `${BASE_URL}/#event`,
-      name: 'IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+      name: 'IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
       description:
-        'An intensive 6-day residential IEEE CIS Summer School on Fine-Tuning Large Language Models and Inference Optimization hosted by Department of CSE (AI & ML), PCCOE.',
+        'An intensive 6-day residential IEEE CIS School on Fine-Tuning Large Language Models and Inference Optimization hosted by Department of CSE (AI & ML), PCCOE.',
       startDate: '2026-06-22',
       endDate: '2026-06-27',
       eventStatus: 'https://schema.org/EventScheduled',
@@ -185,7 +185,7 @@ const jsonLd = {
       '@id': `${BASE_URL}/#website`,
       url: BASE_URL,
       name: 'Ieeecissummerschool',
-      description: 'Official website of the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+      description: 'Official website of the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
       publisher: { '@id': `${BASE_URL}/#organization` },
     },
   ],

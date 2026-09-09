@@ -54,7 +54,7 @@ export function ImageSlider() {
       image: '/images/pccoecampus.jpeg',
       tag: 'WELCOME TO PCCOE',
       title: 'PCCoE Campus, Pune',
-      subtitle: 'Hosting IEEE CIS Summer School',
+      subtitle: 'Hosting IEEE CIS School',
       description: 'Department of CSE (AI & ML), PCCOE is proud to host the 6-day residential summer school on Fine-Tuning LLMs & Inference Optimization.',
       caption: 'PIMPRI CHINCHWAD COLLEGE OF ENGINEERING CAMPUS',
     },

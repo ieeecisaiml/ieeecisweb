@@ -354,7 +354,7 @@ export function RegistrationForm() {
           <CheckCircle2 className="w-8 h-8" />
         </div>
         <h2 className="text-2xl font-semibold text-[#080808] mb-2">Application Submitted</h2>
-        <p className="text-[#5a5a5a] mb-1">Your application to the IEEE CIS Summer School has been received.</p>
+        <p className="text-[#5a5a5a] mb-1">Your application to the IEEE CIS School has been received.</p>
         <p className="text-sm text-[#5a5a5a]">Confirmation will be sent to <strong className="text-[#080808]">{form.email}</strong></p>
       </div>
     )
@@ -612,7 +612,7 @@ export function RegistrationForm() {
           <div className="space-y-5">
             <div>
               <label className={labelBase}>
-                Why do you want to attend the IEEE CIS Summer School on Fine-Tuning LLMs and Inference Optimization, and how do you plan to apply the knowledge gained?<Star />
+                Why do you want to attend the IEEE CIS School on Fine-Tuning LLMs and Inference Optimization, and how do you plan to apply the knowledge gained?<Star />
               </label>
               <p className="text-xs text-[#5a5a5a] mb-1.5">Maximum 250 words</p>
               <textarea

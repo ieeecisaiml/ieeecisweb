@@ -6,14 +6,14 @@ import Link from 'next/link'
 import { BookOpen, Cpu, Award, Building2, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Plenary Presenters — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+  title: 'Plenary Presenters — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Renowned professors and industry experts will be presenting at the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE. Sept 26–Oct 1, 2026.',
+    'Renowned professors and industry experts will be presenting at the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE. Sept 26–Oct 1, 2026.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/speakers' },
   openGraph: {
-    title: 'Plenary Presenters — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+    title: 'Plenary Presenters — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
     description:
-      'Renowned professors and industry experts from premier institutions and industry leaders will be presenting at the IEEE CIS Summer School on LLM Fine-Tuning & Inference Optimization.',
+      'Renowned professors and industry experts from premier institutions and industry leaders will be presenting at the IEEE CIS School on LLM Fine-Tuning & Inference Optimization.',
     url: 'https://ieeecissummerschool2026.vercel.app/speakers',
   },
 }
@@ -88,7 +88,7 @@ export default function SpeakersPage() {
               Renowned professors and industry experts will be presenting.
             </p>
             <p className="text-[#5a5a5a] text-base max-w-3xl mx-auto leading-relaxed mb-8">
-              The IEEE CIS Summer School features sessions led by IEEE Fellows, senior corporate directors, department heads, and pioneering researchers from leading universities and multinational enterprises. Participants will benefit from both rigorous theoretical foundations and direct production insights for fine-tuning and inference optimization.
+              The IEEE CIS School features sessions led by IEEE Fellows, senior corporate directors, department heads, and pioneering researchers from leading universities and multinational enterprises. Participants will benefit from both rigorous theoretical foundations and direct production insights for fine-tuning and inference optimization.
             </p>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-[#d8d8d8] text-left">
@@ -174,7 +174,7 @@ export default function SpeakersPage() {
       {/* Call to Action */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#080808] text-white">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4 tracking-[-0.8px]">Join the Summer School Cohort</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4 tracking-[-0.8px]">Join the School Cohort</h2>
           <p className="text-lg text-[#888888] mb-8 leading-relaxed">
             Limited to 60 in-person participants and 100+ online attendees. Secure your seat today.
           </p>

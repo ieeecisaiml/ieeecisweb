@@ -7,13 +7,13 @@ import { Card } from '@/components/ui/card'
 import { Mail, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Our Team — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+  title: 'Our Team — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Meet the dedicated faculty, student coordinators, and developer team organizing the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE.',
+    'Meet the dedicated faculty, student coordinators, and developer team organizing the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/team' },
   openGraph: {
-    title: 'Our Team — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
-    description: 'Faculty leaders, coordinators, and engineering team behind the IEEE CIS Summer School 2026.',
+    title: 'Our Team — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
+    description: 'Faculty leaders, coordinators, and engineering team behind the IEEE CIS School 2026.',
     url: 'https://ieeecissummerschool2026.vercel.app/team',
   },
 }
@@ -102,7 +102,42 @@ export default function TeamPage() {
       name: 'Debottam Debnath',
       role: 'Hospitality & Venue Setup',
       area: 'Technical Support & Catering',
-      image: '/debottam_debnath.jpg',
+      image: null,
+      link: null,
+    },
+    {
+      name: 'Arya Dhumal',
+      role: 'Hospitality & Session Management',
+      area: 'Guest Hospitality & Evaluation',
+      image: null,
+      link: null,
+    },
+    {
+      name: 'Meet Shah',
+      role: 'Hospitality Committee',
+      area: 'Transport & Logistics',
+      image: null,
+      link: null,
+    },
+    {
+      name: 'Muskan Thakur',
+      role: 'Venue Setup & Session Management',
+      area: 'Anchoring & Lab Sessions',
+      image: null,
+      link: null,
+    },
+    {
+      name: 'Anushka Shinde',
+      role: 'Registration & Branding',
+      area: 'Participant Kits & Publicity',
+      image: null,
+      link: null,
+    },
+    {
+      name: 'Ved Dhapodkar',
+      role: 'Photography & Documentation',
+      area: 'Photography & Videography',
+      image: null,
       link: null,
     },
   ]
@@ -179,6 +214,7 @@ export default function TeamPage() {
                           fill
                           sizes="256px"
                           quality={95}
+                          unoptimized
                           className="object-cover"
                         />
                       ) : (
@@ -247,6 +283,7 @@ export default function TeamPage() {
                         fill
                         sizes="256px"
                         quality={95}
+                        unoptimized
                         className="object-cover"
                       />
                     ) : (
@@ -256,8 +293,7 @@ export default function TeamPage() {
                     )}
                   </div>
                   <h3 className="font-semibold text-[#080808] text-sm mb-1">{coordinator.name}</h3>
-                  <p className="text-xs font-medium text-[#080808] mb-1">{coordinator.role}</p>
-                  <p className="text-[11px] text-[#5a5a5a]">{coordinator.area}</p>
+                  <p className="text-xs font-medium text-[#5a5a5a]">{coordinator.role}</p>
                 </div>
 
                 {coordinator.link && (
@@ -301,6 +337,7 @@ export default function TeamPage() {
                           fill
                           sizes="256px"
                           quality={95}
+                          unoptimized
                           className="object-cover"
                         />
                       ) : (
@@ -361,6 +398,7 @@ export default function TeamPage() {
                         fill
                         sizes="256px"
                         quality={95}
+                        unoptimized
                         className="object-cover"
                       />
                     ) : (

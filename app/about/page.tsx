@@ -5,13 +5,13 @@ import { Card } from '@/components/ui/card'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'About — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
+  title: 'About — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
   description:
-    'Discover the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE — an intensive IEEE CIS program designed for students, researchers, and professionals seeking to master Fine-Tuning LLMs and Inference Optimization at PCCoE Pune.',
+    'Discover the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE — an intensive IEEE CIS program designed for students, researchers, and professionals seeking to master Fine-Tuning LLMs and Inference Optimization at PCCoE Pune.',
   alternates: { canonical: 'https://ieeecissummerschool2026.vercel.app/about' },
   openGraph: {
-    title: 'About — IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE',
-    description: 'Learn why the IEEE CIS Summer School hosted by Department of CSE (AI & ML), PCCOE is the premier AI residential program in India. World-class instructors, hands-on labs, IEEE CIS certificate.',
+    title: 'About — IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE',
+    description: 'Learn why the IEEE CIS School hosted by Department of CSE (AI & ML), PCCOE is the premier AI residential program in India. World-class instructors, hands-on labs, IEEE CIS certificate.',
     url: 'https://ieeecissummerschool2026.vercel.app/about',
   },
 }
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-[4px] bg-[#f5f5f5] text-[#080808] text-xs font-medium uppercase tracking-[1.5px] mb-6 border border-[#d8d8d8]">
             About the Program
           </div>
-          <h1 className="text-4xl sm:text-5xl font-semibold text-[#080808] mb-4 tracking-[-0.8px]">About the Summer School</h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold text-[#080808] mb-4 tracking-[-0.8px]">About the School</h1>
           <p className="text-lg sm:text-xl text-[#5a5a5a] leading-relaxed">
             Intensive learning experience in computational intelligence and LLMs from leading researchers worldwide
           </p>
@@ -87,7 +87,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-semibold text-[#080808] mb-6">Our Mission</h2>
           <div className="space-y-4 text-[#5a5a5a] leading-relaxed">
             <p>
-              The IEEE Computational Intelligence Society Summer School is a flagship educational initiative designed to
+              The IEEE Computational Intelligence Society School is a flagship educational initiative designed to
               advance knowledge and skills in computational intelligence. Our mission is to provide a transformative learning
               experience that bridges the gap between theoretical foundations and practical applications.
             </p>

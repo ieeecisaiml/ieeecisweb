@@ -133,7 +133,7 @@ export default function Home() {
           <span className="text-xs font-medium uppercase tracking-[1.5px] text-[#ababab] block mb-3">Join the Cohort</span>
           <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4 tracking-tight">Ready to Transform Your Skills?</h2>
           <p className="text-base text-[#ababab] mb-8 font-normal">
-            Join 500+ participants who have advanced their careers through the PCCOE Summer School.
+            Join 500+ participants who have advanced their careers through the PCCOE School.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <Link
